@@ -10,6 +10,6 @@ const { route, best } = Astro.props;
   <p class="amount">{formatVes(route.arrivalVes)} <small>(estimado)</small></p>
   <p class="time">Llega en ~{route.timeAverageMin} min</p>
   {route.belowMin && (
-    <p class="warn">Monto mínimo: {route.minSend} {route.systemName}</p>
+    <p class="warn">Monto mínimo: {route.minSend} {route.currency}</p>
   )}
 </article>

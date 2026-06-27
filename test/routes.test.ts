@@ -21,6 +21,7 @@ describe('getRoutes', () => {
     const routes = getRoutes(ds, 'USD', 100);
     expect(routes).toHaveLength(1);
     expect(routes[0].systemId).toBe('zinli');
+    expect(routes[0].currency).toBe('USD');
   });
 
   it('computes gross arrival in VES', () => {

@@ -21,11 +21,10 @@ async function get(url: string): Promise<unknown> {
 export async function getDataset(now: number = Date.now()): Promise<CachedDataset> {
   if (cache && now - cache.fetchedAt < TTL_MS) return cache;
   try {
-    const [bestRates, systems, pagoMovilInfo, _currencies] = await Promise.all([
+    const [bestRates, systems, pagoMovilInfo] = await Promise.all([
       get(`${BASE}/best_rates?page%5Bsize%5D=500`),
       get(`${BASE}/systems?page%5Bsize%5D=100`),
       get(`${BASE}/systems/pago_movil/system_information`),
-      get(`${BASE}/currencies?page%5Bsize%5D=50`),
     ]);
     cache = { dataset: buildDataset({ bestRates, systems, pagoMovilInfo }), fetchedAt: now };
     return cache;

@@ -3,6 +3,7 @@ import type { Dataset } from './saldoar.types';
 export interface Route {
   systemId: string;
   systemName: string;
+  currency: string;
   arrivalVes: number;
   timeAverageMin: number;
   belowMin: boolean;
@@ -22,6 +23,9 @@ export function getRoutes(
       return {
         systemId: r.system1,
         systemName: sys?.name ?? r.system1,
+        currency: sys?.currency ?? fromCurrency,
+        // `r.price` is Saldoar's net effective VES-per-origin-unit rate — fees
+        // are already embedded. Do NOT subtract system fees again here.
         arrivalVes: amount * r.price,
         timeAverageMin: ds.pagoMovilInfo.timeAverage,
         belowMin: amount < minSend,
