@@ -1,0 +1,43 @@
+---
+const channels = [
+  {
+    name: "Cáritas de Venezuela",
+    description: "La organización de la Iglesia Católica que asiste a las familias más vulnerables del país.",
+    url: "https://caritasvenezuela.org/donaciones/"
+  },
+  {
+    name: "World Central Kitchen",
+    description: "Comidas de emergencia para las familias afectadas por los terremotos.",
+    url: "https://donate.wck.org/campaign/815521/donate"
+  },
+  {
+    name: "I Love Venezuela Foundation",
+    description: "Campaña en GoFundMe: alimentos, agua potable, asistencia médica y refugio.",
+    url: "https://www.gofundme.com/f/emergency-relief-for-venezuela-earthquake-victims"
+  }
+];
+---
+
+<section class="donations-section">
+  <div class="donations-tricolor" aria-hidden="true">
+    <div class="donations-tricolor-yellow"></div>
+    <div class="donations-tricolor-blue"></div>
+    <div class="donations-tricolor-red"></div>
+  </div>
+  <h2 class="donations-heading">Ayudá a Venezuela</h2>
+  <p class="donations-subtitle">Canales de ayuda para los afectados por el terremoto.</p>
+  <div class="donations-grid">
+    {channels.map((channel) => (
+      <div class="donations-card">
+        <h3 class="donations-card-name">{channel.name}</h3>
+        <p class="donations-card-desc">{channel.description}</p>
+        <a
+          href={channel.url}
+          class="donations-btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Donar →</a>
+      </div>
+    ))}
+  </div>
+</section>

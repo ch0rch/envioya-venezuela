@@ -7,6 +7,7 @@ import type { Corridor } from '../lib/corridors';
 import OriginSelect from '../components/OriginSelect.astro';
 import ResultList from '../components/ResultList.astro';
 import MethodSwitcher from '../components/MethodSwitcher.astro';
+import DonationsSection from '../components/DonationsSection.astro';
 
 const params = Astro.url.searchParams;
 const from = params.get('from');
@@ -356,6 +357,91 @@ const hasQuery = Boolean(from && Number.isFinite(amount) && amount > 0);
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { transition: none !important; }
     }
+
+    /* --- Donations section --- */
+    .donations-section {
+      margin-top: 3rem;
+      border-top: 1px solid var(--divider, #e5e7eb);
+    }
+
+    .donations-tricolor {
+      display: flex;
+      height: 6px;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: 1.5rem;
+    }
+
+    .donations-tricolor-yellow { flex: 1; background: #FCD116; }
+    .donations-tricolor-blue   { flex: 1; background: #00247D; }
+    .donations-tricolor-red    { flex: 1; background: #CF142B; }
+
+    .donations-heading {
+      font-size: clamp(1.125rem, 4vw, 1.375rem);
+      font-weight: 700;
+      font-family: var(--font-headline, inherit);
+      color: var(--text-primary);
+      margin-bottom: 0.375rem;
+    }
+
+    .donations-subtitle {
+      color: var(--text-secondary);
+      font-size: 0.875rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .donations-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    @media (min-width: 460px) {
+      .donations-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    .donations-card {
+      background: #ffffff;
+      border: 1px solid var(--divider, #e5e7eb);
+      border-radius: 12px;
+      padding: 1rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .donations-card-name {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .donations-card-desc {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      line-height: 1.4;
+      flex: 1;
+    }
+
+    .donations-btn {
+      display: inline-block;
+      margin-top: 0.375rem;
+      padding: 0.45rem 0.875rem;
+      background: #00247D;
+      color: #ffffff;
+      font-size: 0.82rem;
+      font-weight: 700;
+      border-radius: 6px;
+      text-decoration: none;
+      align-self: flex-start;
+      transition: background 0.15s;
+    }
+
+    .donations-btn:hover { background: #001a5c; }
+    .donations-btn:focus-visible {
+      outline: 3px solid #00247D;
+      outline-offset: 2px;
+    }
   </style>
   </head>
   <body>
@@ -364,6 +450,7 @@ const hasQuery = Boolean(from && Number.isFinite(amount) && amount > 0);
       <h1>Mandá plata a tu familia en Venezuela</h1>
       <p>Te decimos la forma de que les lleguen más bolívares, vía Pago Móvil.</p>
 
+      {/* Always-visible donations section — rendered outside all conditionals */}
       {apiDown ? (
         <p class="error">
           No pudimos cargar las cotizaciones ahora.
@@ -390,6 +477,8 @@ const hasQuery = Boolean(from && Number.isFinite(amount) && amount > 0);
           )}
         </>
       )}
+
+      <DonationsSection />
     </main>
   </body>
 </html>
