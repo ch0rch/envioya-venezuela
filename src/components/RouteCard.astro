@@ -1,0 +1,15 @@
+---
+import type { Route } from '../lib/routes';
+import { formatVes } from '../lib/format';
+interface Props { route: Route; best: boolean }
+const { route, best } = Astro.props;
+---
+<article class:list={['card', { best }]}>
+  {best && <span class="badge">Más bolívares</span>}
+  <h3>{route.systemName}</h3>
+  <p class="amount">{formatVes(route.arrivalVes)} <small>(estimado)</small></p>
+  <p class="time">Llega en ~{route.timeAverageMin} min</p>
+  {route.belowMin && (
+    <p class="warn">Monto mínimo: {route.minSend} {route.systemName}</p>
+  )}
+</article>

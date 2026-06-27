@@ -1,0 +1,11 @@
+---
+import type { Corridor } from '../lib/corridors';
+interface Props { corridors: Corridor[]; selected: string | null }
+const { corridors, selected } = Astro.props;
+---
+<select name="from" required>
+  <option value="" disabled selected={!selected}>¿Desde dónde enviás?</option>
+  {corridors.map((c) => (
+    <option value={c.currency} selected={c.currency === selected}>{c.flag} {c.label}</option>
+  ))}
+</select>

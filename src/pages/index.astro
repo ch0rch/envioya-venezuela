@@ -1,7 +1,71 @@
 ---
-// Placeholder home — wired up in Task 7.
+import { getDataset } from '../lib/saldoar';
+import { getRoutes } from '../lib/routes';
+import type { Route } from '../lib/routes';
+import { availableCorridors } from '../lib/corridors';
+import type { Corridor } from '../lib/corridors';
+import OriginSelect from '../components/OriginSelect.astro';
+import ResultList from '../components/ResultList.astro';
+
+const params = Astro.url.searchParams;
+const from = params.get('from');
+const amount = Number(params.get('amount') ?? '');
+
+let corridors: Corridor[] = [];
+let routes: Route[] = [];
+let fetchedAt: number | null = null;
+let apiDown = false;
+
+try {
+  const cached = await getDataset();
+  fetchedAt = cached.fetchedAt;
+  corridors = availableCorridors(cached.dataset);
+  if (from && Number.isFinite(amount) && amount > 0) {
+    routes = getRoutes(cached.dataset, from, amount);
+  }
+} catch {
+  apiDown = true;
+}
+
+const minsAgo = fetchedAt ? Math.round((Date.now() - fetchedAt) / 60000) : null;
+const hasQuery = Boolean(from && Number.isFinite(amount) && amount > 0);
 ---
 <html lang="es">
-  <head><meta charset="utf-8" /><title>EnvíoYA Venezuela</title></head>
-  <body><h1>EnvíoYA Venezuela</h1></body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EnvíoYA Venezuela — la mejor forma de mandar plata a tu familia</title>
+  </head>
+  <body>
+    <main>
+      <h1>Mandá plata a tu familia en Venezuela</h1>
+      <p>Te decimos la forma de que les lleguen más bolívares, vía Pago Móvil.</p>
+
+      {apiDown ? (
+        <p class="error">
+          No pudimos cargar las cotizaciones ahora.
+          <a href="https://saldo.com.ar">Operá directamente en Saldoar →</a>
+        </p>
+      ) : (
+        <>
+          <form method="get">
+            <OriginSelect corridors={corridors} selected={from} />
+            <input type="number" name="amount" min="1" step="any" placeholder="Monto" value={hasQuery ? amount : ''} required />
+            <button type="submit">Ver mejor ruta</button>
+          </form>
+
+          {hasQuery && (
+            <section>
+              <ResultList routes={routes} />
+              <aside class="receiver">
+                <strong>Tu familiar solo necesita:</strong> teléfono + cédula.
+                No hace falta ir al banco.
+              </aside>
+              {minsAgo !== null && <p class="freshness">Datos de hace {minsAgo} min · estimados, confirmá el monto final en Saldoar.</p>}
+            </section>
+          )}
+        </>
+      )}
+    </main>
+  </body>
 </html>
