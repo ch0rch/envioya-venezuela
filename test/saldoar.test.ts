@@ -43,4 +43,14 @@ describe('getDataset', () => {
     const { dataset } = await getDataset(1000 + 11 * 60_000); // past TTL, fetch fails
     expect(dataset.rates.length).toBeGreaterThan(0);
   });
+
+  it('rethrows when fetch fails and no cache exists', async () => {
+    vi.stubGlobal('fetch', vi.fn(async () => { throw new Error('down'); }));
+    await expect(getDataset(1000)).rejects.toThrow('down');
+  });
+
+  it('throws on non-ok HTTP response', async () => {
+    vi.stubGlobal('fetch', vi.fn(async () => ({ ok: false, status: 403 })));
+    await expect(getDataset(1000)).rejects.toThrow('saldoar 403');
+  });
 });
