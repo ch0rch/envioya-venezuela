@@ -18,26 +18,36 @@ const ds: Dataset = {
 
 describe('getRoutes', () => {
   it('returns only routes matching the origin currency', () => {
-    const routes = getRoutes(ds, 'USD', 100, 'amount');
+    const routes = getRoutes(ds, 'USD', 100);
     expect(routes).toHaveLength(1);
     expect(routes[0].systemId).toBe('zinli');
   });
 
   it('computes gross arrival in VES', () => {
-    const routes = getRoutes(ds, 'USDT', 100, 'amount');
-    expect(routes[0].arrivalVes).toBeCloseTo(74800);
+    const routes = getRoutes(ds, 'USDT', 100);
+    expect(routes[0].arrivalVes).toBe(74800);
+  });
+
+  it('exposes the pago movil time as informational time', () => {
+    const routes = getRoutes(ds, 'USDT', 100);
+    expect(routes[0].timeAverageMin).toBe(17);
   });
 
   it('returns empty array for an origin with no route', () => {
-    expect(getRoutes(ds, 'JPY', 100, 'amount')).toEqual([]);
+    expect(getRoutes(ds, 'JPY', 100)).toEqual([]);
   });
 
   it('flags amounts below the system minimum', () => {
-    const routes = getRoutes(ds, 'USDT', 5, 'amount');
+    const routes = getRoutes(ds, 'USDT', 5);
     expect(routes[0].belowMin).toBe(true);
   });
 
-  it('sorts by arrival amount descending by default', () => {
+  it('does not flag amounts at or above the system minimum', () => {
+    const routes = getRoutes(ds, 'USDT', 100);
+    expect(routes[0].belowMin).toBe(false);
+  });
+
+  it('ranks by arrival amount descending', () => {
     const ds2: Dataset = {
       ...ds,
       rates: [
@@ -49,7 +59,7 @@ describe('getRoutes', () => {
         a: { id: 'a', name: 'A', currency: 'USD', fixedFeeSend: 0, percentFeeSend: 0, minSend: 1, maxSend: 1e9 },
       },
     };
-    const routes = getRoutes(ds2, 'USD', 100, 'amount');
+    const routes = getRoutes(ds2, 'USD', 100);
     expect(routes.map((r) => r.systemId)).toEqual(['zinli', 'a']);
   });
 });

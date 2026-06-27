@@ -1,7 +1,5 @@
 import type { Dataset } from './saldoar.types';
 
-export type SortKey = 'amount' | 'speed';
-
 export interface Route {
   systemId: string;
   systemName: string;
@@ -15,7 +13,6 @@ export function getRoutes(
   ds: Dataset,
   fromCurrency: string,
   amount: number,
-  sort: SortKey,
 ): Route[] {
   const routes: Route[] = ds.rates
     .filter((r) => r.currency1 === fromCurrency)
@@ -32,10 +29,6 @@ export function getRoutes(
       };
     });
 
-  const sorted = [...routes].sort((a, b) =>
-    sort === 'speed'
-      ? a.timeAverageMin - b.timeAverageMin
-      : b.arrivalVes - a.arrivalVes,
-  );
-  return sorted;
+  // Always rank by bolívares delivered, descending.
+  return [...routes].sort((a, b) => b.arrivalVes - a.arrivalVes);
 }
