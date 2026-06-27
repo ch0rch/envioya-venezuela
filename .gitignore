@@ -8,3 +8,7 @@ dist/
 docs/superpowers/
 scripts/fetch-fixtures.sh
 .superpowers/
+
+# Build artifacts — must never be committed (breaks Vercel: it uses prebuilt output with local paths)
+.vercel/
+dist/
