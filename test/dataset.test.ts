@@ -8,7 +8,7 @@ describe('buildDataset', () => {
   const ds = buildDataset({ bestRates, systems, pagoMovilInfo: pmInfo });
 
   it('keeps only pago_movil/VES rates', () => {
-    expect(ds.rates.length).toBeGreaterThan(0);
+    expect(ds.rates.length).toBe(13);
     expect(ds.rates.every((r) => r.system2 === 'pago_movil' && r.currency2 === 'VES')).toBe(true);
   });
 
@@ -18,6 +18,6 @@ describe('buildDataset', () => {
   });
 
   it('extracts pago movil time_average', () => {
-    expect(ds.pagoMovilInfo.timeAverage).toBeGreaterThan(0);
+    expect(ds.pagoMovilInfo.timeAverage).toBe(17);
   });
 });
