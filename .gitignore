@@ -3,3 +3,8 @@ dist/
 .astro/
 .env
 .DS_Store
+
+# Internal dev scaffolding — not published
+docs/superpowers/
+scripts/fetch-fixtures.sh
+.superpowers/
