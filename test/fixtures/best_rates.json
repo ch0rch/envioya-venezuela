@@ -1,0 +1,2006 @@
+{
+    "data": [
+        {
+            "type": "best_rates",
+            "id": "banco_banco_bol",
+            "attributes": {
+                "price": 0.00641248428773886,
+                "system1": "banco",
+                "system2": "banco_bol",
+                "currency1": "ARS",
+                "currency2": "BOB"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_pix",
+            "attributes": {
+                "price": 0.003354947604906753,
+                "system1": "banco",
+                "system2": "pix",
+                "currency1": "ARS",
+                "currency2": "BRL"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bitcoin",
+            "attributes": {
+                "price": 1.055615161125813e-8,
+                "system1": "banco",
+                "system2": "bitcoin",
+                "currency1": "ARS",
+                "currency2": "BTC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_transfer-chile",
+            "attributes": {
+                "price": 0.5733827537004119,
+                "system1": "banco",
+                "system2": "transfer-chile",
+                "currency1": "ARS",
+                "currency2": "CLP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bre-b",
+            "attributes": {
+                "price": 2.1697867340183272,
+                "system1": "banco",
+                "system2": "bre-b",
+                "currency1": "ARS",
+                "currency2": "COP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_dai",
+            "attributes": {
+                "price": 0.00063961604503366,
+                "system1": "banco",
+                "system2": "dai",
+                "currency1": "ARS",
+                "currency2": "DAI"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_banco_eur",
+            "attributes": {
+                "price": 0.0005616742585908709,
+                "system1": "banco",
+                "system2": "banco_eur",
+                "currency1": "ARS",
+                "currency2": "EUR"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_banco_mex",
+            "attributes": {
+                "price": 0.011089268650663642,
+                "system1": "banco",
+                "system2": "banco_mex",
+                "currency1": "ARS",
+                "currency2": "MXN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_yape-plin",
+            "attributes": {
+                "price": 0.002144105085002034,
+                "system1": "banco",
+                "system2": "yape-plin",
+                "currency1": "ARS",
+                "currency2": "PEN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_palpal",
+            "attributes": {
+                "price": 0.0007011603849936772,
+                "system1": "banco",
+                "system2": "palpal",
+                "currency1": "ARS",
+                "currency2": "USD"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_usdc",
+            "attributes": {
+                "price": 0.000640885608328427,
+                "system1": "banco",
+                "system2": "usdc",
+                "currency1": "ARS",
+                "currency2": "USDC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_usdt",
+            "attributes": {
+                "price": 0.000640885608328427,
+                "system1": "banco",
+                "system2": "usdt",
+                "currency1": "ARS",
+                "currency2": "USDT"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_pago_movil",
+            "attributes": {
+                "price": 0.48328729534809983,
+                "system1": "banco",
+                "system2": "pago_movil",
+                "currency1": "ARS",
+                "currency2": "VES"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bol_banco",
+            "attributes": {
+                "price": 152.38260959435604,
+                "system1": "banco_bol",
+                "system2": "banco",
+                "currency1": "BOB",
+                "currency2": "ARS"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bol_pix",
+            "attributes": {
+                "price": 0.5167387559118487,
+                "system1": "banco_bol",
+                "system2": "pix",
+                "currency1": "BOB",
+                "currency2": "BRL"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bol_bitcoin",
+            "attributes": {
+                "price": 1.6258924226139462e-6,
+                "system1": "banco_bol",
+                "system2": "bitcoin",
+                "currency1": "BOB",
+                "currency2": "BTC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bol_transfer-chile",
+            "attributes": {
+                "price": 88.3151873049936,
+                "system1": "banco_bol",
+                "system2": "transfer-chile",
+                "currency1": "BOB",
+                "currency2": "CLP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bol_bre-b",
+            "attributes": {
+                "price": 334.1973490129862,
+                "system1": "banco_bol",
+                "system2": "bre-b",
+                "currency1": "BOB",
+                "currency2": "COP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bol_dai",
+            "attributes": {
+                "price": 0.09851606814373301,
+                "system1": "banco_bol",
+                "system2": "dai",
+                "currency1": "BOB",
+                "currency2": "DAI"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bol_banco_eur",
+            "attributes": {
+                "price": 0.08651075237965664,
+                "system1": "banco_bol",
+                "system2": "banco_eur",
+                "currency1": "BOB",
+                "currency2": "EUR"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bol_banco_mex",
+            "attributes": {
+                "price": 1.7080435864490442,
+                "system1": "banco_bol",
+                "system2": "banco_mex",
+                "currency1": "BOB",
+                "currency2": "MXN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bol_yape-plin",
+            "attributes": {
+                "price": 0.3302451555100386,
+                "system1": "banco_bol",
+                "system2": "yape-plin",
+                "currency1": "BOB",
+                "currency2": "PEN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bol_palpal",
+            "attributes": {
+                "price": 0.10799506198393793,
+                "system1": "banco_bol",
+                "system2": "palpal",
+                "currency1": "BOB",
+                "currency2": "USD"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bol_usdc",
+            "attributes": {
+                "price": 0.09871126265676354,
+                "system1": "banco_bol",
+                "system2": "usdc",
+                "currency1": "BOB",
+                "currency2": "USDC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bol_usdt",
+            "attributes": {
+                "price": 0.09871126265676354,
+                "system1": "banco_bol",
+                "system2": "usdt",
+                "currency1": "BOB",
+                "currency2": "USDT"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_bol_pago_movil",
+            "attributes": {
+                "price": 74.43908877382641,
+                "system1": "banco_bol",
+                "system2": "pago_movil",
+                "currency1": "BOB",
+                "currency2": "VES"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pix_banco",
+            "attributes": {
+                "price": 290.8639130646717,
+                "system1": "pix",
+                "system2": "banco",
+                "currency1": "BRL",
+                "currency2": "ARS"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pix_banco_bol",
+            "attributes": {
+                "price": 1.8852347354713284,
+                "system1": "pix",
+                "system2": "banco_bol",
+                "currency1": "BRL",
+                "currency2": "BOB"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pix_bitcoin",
+            "attributes": {
+                "price": 3.1034464098810882e-6,
+                "system1": "pix",
+                "system2": "bitcoin",
+                "currency1": "BRL",
+                "currency2": "BTC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pix_transfer-chile",
+            "attributes": {
+                "price": 168.57693805118643,
+                "system1": "pix",
+                "system2": "transfer-chile",
+                "currency1": "BRL",
+                "currency2": "CLP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pix_bre-b",
+            "attributes": {
+                "price": 637.9033894576988,
+                "system1": "pix",
+                "system2": "bre-b",
+                "currency1": "BRL",
+                "currency2": "COP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pix_dai",
+            "attributes": {
+                "price": 0.18804551019242413,
+                "system1": "pix",
+                "system2": "dai",
+                "currency1": "BRL",
+                "currency2": "DAI"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pix_banco_eur",
+            "attributes": {
+                "price": 0.16512815782935833,
+                "system1": "pix",
+                "system2": "banco_eur",
+                "currency1": "BRL",
+                "currency2": "EUR"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pix_banco_mex",
+            "attributes": {
+                "price": 3.2604204404210853,
+                "system1": "pix",
+                "system2": "banco_mex",
+                "currency1": "BRL",
+                "currency2": "MXN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pix_yape-plin",
+            "attributes": {
+                "price": 0.630374108205038,
+                "system1": "pix",
+                "system2": "yape-plin",
+                "currency1": "BRL",
+                "currency2": "PEN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pix_palpal",
+            "attributes": {
+                "price": 0.20613754812073345,
+                "system1": "pix",
+                "system2": "palpal",
+                "currency1": "BRL",
+                "currency2": "USD"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pix_usdc",
+            "attributes": {
+                "price": 0.18841659475505215,
+                "system1": "pix",
+                "system2": "usdc",
+                "currency1": "BRL",
+                "currency2": "USDC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pix_usdt",
+            "attributes": {
+                "price": 0.18841659475505215,
+                "system1": "pix",
+                "system2": "usdt",
+                "currency1": "BRL",
+                "currency2": "USDT"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pix_pago_movil",
+            "attributes": {
+                "price": 142.093712873472,
+                "system1": "pix",
+                "system2": "pago_movil",
+                "currency1": "BRL",
+                "currency2": "VES"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bitcoin_banco",
+            "attributes": {
+                "price": 92293884.46441947,
+                "system1": "bitcoin",
+                "system2": "banco",
+                "currency1": "BTC",
+                "currency2": "ARS"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bitcoin_banco_bol",
+            "attributes": {
+                "price": 598205.9758867592,
+                "system1": "bitcoin",
+                "system2": "banco_bol",
+                "currency1": "BTC",
+                "currency2": "BOB"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bitcoin_pix",
+            "attributes": {
+                "price": 312975.21886607364,
+                "system1": "bitcoin",
+                "system2": "pix",
+                "currency1": "BTC",
+                "currency2": "BRL"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bitcoin_transfer-chile",
+            "attributes": {
+                "price": 53489680.88004352,
+                "system1": "bitcoin",
+                "system2": "transfer-chile",
+                "currency1": "BTC",
+                "currency2": "CLP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bitcoin_bre-b",
+            "attributes": {
+                "price": 202414397.46360224,
+                "system1": "bitcoin",
+                "system2": "bre-b",
+                "currency1": "BTC",
+                "currency2": "COP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bitcoin_dai",
+            "attributes": {
+                "price": 59668.35688928946,
+                "system1": "bitcoin",
+                "system2": "dai",
+                "currency1": "BTC",
+                "currency2": "DAI"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bitcoin_banco_eur",
+            "attributes": {
+                "price": 52397.28560280736,
+                "system1": "bitcoin",
+                "system2": "banco_eur",
+                "currency1": "BTC",
+                "currency2": "EUR"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bitcoin_banco_mex",
+            "attributes": {
+                "price": 1034497.4256092533,
+                "system1": "bitcoin",
+                "system2": "banco_mex",
+                "currency1": "BTC",
+                "currency2": "MXN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bitcoin_yape-plin",
+            "attributes": {
+                "price": 200019.05286880367,
+                "system1": "bitcoin",
+                "system2": "yape-plin",
+                "currency1": "BTC",
+                "currency2": "PEN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bitcoin_palpal",
+            "attributes": {
+                "price": 65409.65289884315,
+                "system1": "bitcoin",
+                "system2": "palpal",
+                "currency1": "BTC",
+                "currency2": "USD"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bitcoin_usdc",
+            "attributes": {
+                "price": 59786.74648629202,
+                "system1": "bitcoin",
+                "system2": "usdc",
+                "currency1": "BTC",
+                "currency2": "USDC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bitcoin_usdt",
+            "attributes": {
+                "price": 59786.74648629202,
+                "system1": "bitcoin",
+                "system2": "usdt",
+                "currency1": "BTC",
+                "currency2": "USDT"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bitcoin_pago_movil",
+            "attributes": {
+                "price": 45084972.365233734,
+                "system1": "bitcoin",
+                "system2": "pago_movil",
+                "currency1": "BTC",
+                "currency2": "VES"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "transfer-chile_banco",
+            "attributes": {
+                "price": 1.691419708345942,
+                "system1": "transfer-chile",
+                "system2": "banco",
+                "currency1": "CLP",
+                "currency2": "ARS"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "transfer-chile_banco_bol",
+            "attributes": {
+                "price": 0.010962933298519287,
+                "system1": "transfer-chile",
+                "system2": "banco_bol",
+                "currency1": "CLP",
+                "currency2": "BOB"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "transfer-chile_pix",
+            "attributes": {
+                "price": 0.005735648234621905,
+                "system1": "transfer-chile",
+                "system2": "pix",
+                "currency1": "CLP",
+                "currency2": "BRL"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "transfer-chile_bitcoin",
+            "attributes": {
+                "price": 1.8047021975799216e-8,
+                "system1": "transfer-chile",
+                "system2": "bitcoin",
+                "currency1": "CLP",
+                "currency2": "BTC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "transfer-chile_bre-b",
+            "attributes": {
+                "price": 3.709506532152342,
+                "system1": "transfer-chile",
+                "system2": "bre-b",
+                "currency1": "CLP",
+                "currency2": "COP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "transfer-chile_dai",
+            "attributes": {
+                "price": 0.0010935148731408574,
+                "system1": "transfer-chile",
+                "system2": "dai",
+                "currency1": "CLP",
+                "currency2": "DAI"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "transfer-chile_banco_eur",
+            "attributes": {
+                "price": 0.0009602454528473642,
+                "system1": "transfer-chile",
+                "system2": "banco_eur",
+                "currency1": "CLP",
+                "currency2": "EUR"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "transfer-chile_banco_mex",
+            "attributes": {
+                "price": 0.01895997073118666,
+                "system1": "transfer-chile",
+                "system2": "banco_mex",
+                "currency1": "CLP",
+                "currency2": "MXN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "transfer-chile_yape-plin",
+            "attributes": {
+                "price": 0.0036657330847535735,
+                "system1": "transfer-chile",
+                "system2": "yape-plin",
+                "currency1": "CLP",
+                "currency2": "PEN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "transfer-chile_palpal",
+            "attributes": {
+                "price": 0.0011987220602522023,
+                "system1": "transfer-chile",
+                "system2": "palpal",
+                "currency1": "CLP",
+                "currency2": "USD"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "transfer-chile_usdc",
+            "attributes": {
+                "price": 0.0010956717072101686,
+                "system1": "transfer-chile",
+                "system2": "usdc",
+                "currency1": "CLP",
+                "currency2": "USDC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "transfer-chile_usdt",
+            "attributes": {
+                "price": 0.0010956717072101686,
+                "system1": "transfer-chile",
+                "system2": "usdt",
+                "currency1": "CLP",
+                "currency2": "USDT"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "transfer-chile_pago_movil",
+            "attributes": {
+                "price": 0.8263020172478293,
+                "system1": "transfer-chile",
+                "system2": "pago_movil",
+                "currency1": "CLP",
+                "currency2": "VES"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bre-b_banco",
+            "attributes": {
+                "price": 0.4515578697307275,
+                "system1": "bre-b",
+                "system2": "banco",
+                "currency1": "COP",
+                "currency2": "ARS"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bre-b_banco_bol",
+            "attributes": {
+                "price": 0.002926782519156009,
+                "system1": "bre-b",
+                "system2": "banco_bol",
+                "currency1": "COP",
+                "currency2": "BOB"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bre-b_pix",
+            "attributes": {
+                "price": 0.0015312585955159547,
+                "system1": "bre-b",
+                "system2": "pix",
+                "currency1": "COP",
+                "currency2": "BRL"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bre-b_bitcoin",
+            "attributes": {
+                "price": 4.818030724309746e-9,
+                "system1": "bre-b",
+                "system2": "bitcoin",
+                "currency1": "COP",
+                "currency2": "BTC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bre-b_transfer-chile",
+            "attributes": {
+                "price": 0.2617064652327259,
+                "system1": "bre-b",
+                "system2": "transfer-chile",
+                "currency1": "COP",
+                "currency2": "CLP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bre-b_dai",
+            "attributes": {
+                "price": 0.0002919343935289816,
+                "system1": "bre-b",
+                "system2": "dai",
+                "currency1": "COP",
+                "currency2": "DAI"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bre-b_banco_eur",
+            "attributes": {
+                "price": 0.0002563584702635426,
+                "system1": "bre-b",
+                "system2": "banco_eur",
+                "currency1": "COP",
+                "currency2": "EUR"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bre-b_banco_mex",
+            "attributes": {
+                "price": 0.005061503048195908,
+                "system1": "bre-b",
+                "system2": "banco_mex",
+                "currency1": "COP",
+                "currency2": "MXN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bre-b_yape-plin",
+            "attributes": {
+                "price": 0.0009786229698095729,
+                "system1": "bre-b",
+                "system2": "yape-plin",
+                "currency1": "COP",
+                "currency2": "PEN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bre-b_palpal",
+            "attributes": {
+                "price": 0.00032002341284681924,
+                "system1": "bre-b",
+                "system2": "palpal",
+                "currency1": "COP",
+                "currency2": "USD"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bre-b_usdc",
+            "attributes": {
+                "price": 0.00029251252401501685,
+                "system1": "bre-b",
+                "system2": "usdc",
+                "currency1": "COP",
+                "currency2": "USDC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bre-b_usdt",
+            "attributes": {
+                "price": 0.00029251252401501685,
+                "system1": "bre-b",
+                "system2": "usdt",
+                "currency1": "COP",
+                "currency2": "USDT"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "bre-b_pago_movil",
+            "attributes": {
+                "price": 0.22058780324995228,
+                "system1": "bre-b",
+                "system2": "pago_movil",
+                "currency1": "COP",
+                "currency2": "VES"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "dai_banco",
+            "attributes": {
+                "price": 1528.437248184359,
+                "system1": "dai",
+                "system2": "banco",
+                "currency1": "DAI",
+                "currency2": "ARS"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "dai_banco_bol",
+            "attributes": {
+                "price": 9.906599812835664,
+                "system1": "dai",
+                "system2": "banco_bol",
+                "currency1": "DAI",
+                "currency2": "BOB"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "dai_pix",
+            "attributes": {
+                "price": 5.1830173617662645,
+                "system1": "dai",
+                "system2": "pix",
+                "currency1": "DAI",
+                "currency2": "BRL"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "dai_bitcoin",
+            "attributes": {
+                "price": 1.6308113527360395e-5,
+                "system1": "dai",
+                "system2": "bitcoin",
+                "currency1": "DAI",
+                "currency2": "BTC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "dai_transfer-chile",
+            "attributes": {
+                "price": 885.8267716535432,
+                "system1": "dai",
+                "system2": "transfer-chile",
+                "currency1": "DAI",
+                "currency2": "CLP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "dai_bre-b",
+            "attributes": {
+                "price": 3352.0836102841176,
+                "system1": "dai",
+                "system2": "bre-b",
+                "currency1": "DAI",
+                "currency2": "COP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "dai_banco_eur",
+            "attributes": {
+                "price": 0.8677243940507176,
+                "system1": "dai",
+                "system2": "banco_eur",
+                "currency1": "DAI",
+                "currency2": "EUR"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "dai_banco_mex",
+            "attributes": {
+                "price": 17.132236864011634,
+                "system1": "dai",
+                "system2": "banco_mex",
+                "currency1": "DAI",
+                "currency2": "MXN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "dai_yape-plin",
+            "attributes": {
+                "price": 3.3124531103571266,
+                "system1": "dai",
+                "system2": "yape-plin",
+                "currency1": "DAI",
+                "currency2": "PEN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "dai_palpal",
+            "attributes": {
+                "price": 1.083218147598841,
+                "system1": "dai",
+                "system2": "palpal",
+                "currency1": "DAI",
+                "currency2": "USD"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "dai_usdc",
+            "attributes": {
+                "price": 0.9900990099009901,
+                "system1": "dai",
+                "system2": "usdc",
+                "currency1": "DAI",
+                "currency2": "USDC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "dai_usdt",
+            "attributes": {
+                "price": 0.9900990099009901,
+                "system1": "dai",
+                "system2": "usdt",
+                "currency1": "DAI",
+                "currency2": "USDT"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "dai_pago_movil",
+            "attributes": {
+                "price": 746.6482434611361,
+                "system1": "dai",
+                "system2": "pago_movil",
+                "currency1": "DAI",
+                "currency2": "VES"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_eur_banco",
+            "attributes": {
+                "price": 1744.5953451272721,
+                "system1": "banco_eur",
+                "system2": "banco",
+                "currency1": "EUR",
+                "currency2": "ARS"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_eur_banco_bol",
+            "attributes": {
+                "price": 11.307628862534626,
+                "system1": "banco_eur",
+                "system2": "banco_bol",
+                "currency1": "EUR",
+                "currency2": "BOB"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_eur_pix",
+            "attributes": {
+                "price": 5.916016102219298,
+                "system1": "banco_eur",
+                "system2": "pix",
+                "currency1": "EUR",
+                "currency2": "BRL"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_eur_bitcoin",
+            "attributes": {
+                "price": 1.8614467520089986e-5,
+                "system1": "banco_eur",
+                "system2": "bitcoin",
+                "currency1": "EUR",
+                "currency2": "BTC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_eur_transfer-chile",
+            "attributes": {
+                "price": 1011.106158027561,
+                "system1": "banco_eur",
+                "system2": "transfer-chile",
+                "currency1": "EUR",
+                "currency2": "CLP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_eur_bre-b",
+            "attributes": {
+                "price": 3826.1472416136316,
+                "system1": "banco_eur",
+                "system2": "bre-b",
+                "currency1": "EUR",
+                "currency2": "COP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_eur_dai",
+            "attributes": {
+                "price": 1.1278899695209972,
+                "system1": "banco_eur",
+                "system2": "dai",
+                "currency1": "EUR",
+                "currency2": "DAI"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_eur_banco_mex",
+            "attributes": {
+                "price": 19.55524439622016,
+                "system1": "banco_eur",
+                "system2": "banco_mex",
+                "currency1": "EUR",
+                "currency2": "MXN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_eur_yape-plin",
+            "attributes": {
+                "price": 3.7809210175783106,
+                "system1": "banco_eur",
+                "system2": "yape-plin",
+                "currency1": "EUR",
+                "currency2": "PEN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_eur_palpal",
+            "attributes": {
+                "price": 1.2364111057949392,
+                "system1": "banco_eur",
+                "system2": "palpal",
+                "currency1": "EUR",
+                "currency2": "USD"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_eur_usdc",
+            "attributes": {
+                "price": 1.130122489676972,
+                "system1": "banco_eur",
+                "system2": "usdc",
+                "currency1": "EUR",
+                "currency2": "USDC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_eur_usdt",
+            "attributes": {
+                "price": 1.130122489676972,
+                "system1": "banco_eur",
+                "system2": "usdt",
+                "currency1": "EUR",
+                "currency2": "USDT"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_eur_pago_movil",
+            "attributes": {
+                "price": 852.2463280367676,
+                "system1": "banco_eur",
+                "system2": "pago_movil",
+                "currency1": "EUR",
+                "currency2": "VES"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_mex_banco",
+            "attributes": {
+                "price": 87.35678740563888,
+                "system1": "banco_mex",
+                "system2": "banco",
+                "currency1": "MXN",
+                "currency2": "ARS"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_mex_banco_bol",
+            "attributes": {
+                "price": 0.5662076149769691,
+                "system1": "banco_mex",
+                "system2": "banco_bol",
+                "currency1": "MXN",
+                "currency2": "BOB"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_mex_pix",
+            "attributes": {
+                "price": 0.2962351986634891,
+                "system1": "banco_mex",
+                "system2": "pix",
+                "currency1": "MXN",
+                "currency2": "BRL"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_mex_bitcoin",
+            "attributes": {
+                "price": 9.320843798702592e-7,
+                "system1": "banco_mex",
+                "system2": "bitcoin",
+                "currency1": "MXN",
+                "currency2": "BTC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_mex_transfer-chile",
+            "attributes": {
+                "price": 50.62762396575212,
+                "system1": "banco_mex",
+                "system2": "transfer-chile",
+                "currency1": "MXN",
+                "currency2": "CLP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_mex_bre-b",
+            "attributes": {
+                "price": 191.5874278127321,
+                "system1": "banco_mex",
+                "system2": "bre-b",
+                "currency1": "MXN",
+                "currency2": "COP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_mex_dai",
+            "attributes": {
+                "price": 0.05647636304686682,
+                "system1": "banco_mex",
+                "system2": "dai",
+                "currency1": "MXN",
+                "currency2": "DAI"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_mex_banco_eur",
+            "attributes": {
+                "price": 0.04959467365005336,
+                "system1": "banco_mex",
+                "system2": "banco_eur",
+                "currency1": "MXN",
+                "currency2": "EUR"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_mex_yape-plin",
+            "attributes": {
+                "price": 0.18931696828955896,
+                "system1": "banco_mex",
+                "system2": "yape-plin",
+                "currency1": "MXN",
+                "currency2": "PEN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_mex_palpal",
+            "attributes": {
+                "price": 0.06191081000632109,
+                "system1": "banco_mex",
+                "system2": "palpal",
+                "currency1": "MXN",
+                "currency2": "USD"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_mex_usdc",
+            "attributes": {
+                "price": 0.056588753819099384,
+                "system1": "banco_mex",
+                "system2": "usdc",
+                "currency1": "MXN",
+                "currency2": "USDC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_mex_usdt",
+            "attributes": {
+                "price": 0.056588753819099384,
+                "system1": "banco_mex",
+                "system2": "usdt",
+                "currency1": "MXN",
+                "currency2": "USDT"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "banco_mex_pago_movil",
+            "attributes": {
+                "price": 42.671817249909964,
+                "system1": "banco_mex",
+                "system2": "pago_movil",
+                "currency1": "MXN",
+                "currency2": "VES"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "yape-plin_banco",
+            "attributes": {
+                "price": 452.8111861881811,
+                "system1": "yape-plin",
+                "system2": "banco",
+                "currency1": "PEN",
+                "currency2": "ARS"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "yape-plin_banco_bol",
+            "attributes": {
+                "price": 2.934896120322863,
+                "system1": "yape-plin",
+                "system2": "banco_bol",
+                "currency1": "PEN",
+                "currency2": "BOB"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "yape-plin_pix",
+            "attributes": {
+                "price": 1.5354962430294168,
+                "system1": "yape-plin",
+                "system2": "pix",
+                "currency1": "PEN",
+                "currency2": "BRL"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "yape-plin_bitcoin",
+            "attributes": {
+                "price": 4.831383934193583e-6,
+                "system1": "yape-plin",
+                "system2": "bitcoin",
+                "currency1": "PEN",
+                "currency2": "BTC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "yape-plin_transfer-chile",
+            "attributes": {
+                "price": 262.43725303617083,
+                "system1": "yape-plin",
+                "system2": "transfer-chile",
+                "currency1": "PEN",
+                "currency2": "CLP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "yape-plin_bre-b",
+            "attributes": {
+                "price": 993.075366030403,
+                "system1": "yape-plin",
+                "system2": "bre-b",
+                "currency1": "PEN",
+                "currency2": "COP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "yape-plin_dai",
+            "attributes": {
+                "price": 0.29274553254595564,
+                "system1": "yape-plin",
+                "system2": "dai",
+                "currency1": "PEN",
+                "currency2": "DAI"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "yape-plin_banco_eur",
+            "attributes": {
+                "price": 0.2570682454521808,
+                "system1": "yape-plin",
+                "system2": "banco_eur",
+                "currency1": "PEN",
+                "currency2": "EUR"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "yape-plin_banco_mex",
+            "attributes": {
+                "price": 5.075758541616641,
+                "system1": "yape-plin",
+                "system2": "banco_mex",
+                "currency1": "PEN",
+                "currency2": "MXN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "yape-plin_palpal",
+            "attributes": {
+                "price": 0.3209108553409656,
+                "system1": "yape-plin",
+                "system2": "palpal",
+                "currency1": "PEN",
+                "currency2": "USD"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "yape-plin_usdc",
+            "attributes": {
+                "price": 0.2933232247660759,
+                "system1": "yape-plin",
+                "system2": "usdc",
+                "currency1": "PEN",
+                "currency2": "USDC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "yape-plin_usdt",
+            "attributes": {
+                "price": 0.2933232247660759,
+                "system1": "yape-plin",
+                "system2": "usdt",
+                "currency1": "PEN",
+                "currency2": "USDT"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "yape-plin_pago_movil",
+            "attributes": {
+                "price": 221.20870208892651,
+                "system1": "yape-plin",
+                "system2": "pago_movil",
+                "currency1": "PEN",
+                "currency2": "VES"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "zinli_banco",
+            "attributes": {
+                "price": 1513.3418209777742,
+                "system1": "zinli",
+                "system2": "banco",
+                "currency1": "USD",
+                "currency2": "ARS"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "zinli_banco_bol",
+            "attributes": {
+                "price": 9.808662943679055,
+                "system1": "zinli",
+                "system2": "banco_bol",
+                "currency1": "USD",
+                "currency2": "BOB"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "zinli_pix",
+            "attributes": {
+                "price": 5.131706819670464,
+                "system1": "zinli",
+                "system2": "pix",
+                "currency1": "USD",
+                "currency2": "BRL"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "zinli_bitcoin",
+            "attributes": {
+                "price": 1.614685904221212e-5,
+                "system1": "zinli",
+                "system2": "bitcoin",
+                "currency1": "USD",
+                "currency2": "BTC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "zinli_transfer-chile",
+            "attributes": {
+                "price": 877.1210200614673,
+                "system1": "zinli",
+                "system2": "transfer-chile",
+                "currency1": "USD",
+                "currency2": "CLP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "zinli_bre-b",
+            "attributes": {
+                "price": 3318.927801554158,
+                "system1": "zinli",
+                "system2": "bre-b",
+                "currency1": "USD",
+                "currency2": "COP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "zinli_dai",
+            "attributes": {
+                "price": 0.9783914448172739,
+                "system1": "zinli",
+                "system2": "dai",
+                "currency1": "USD",
+                "currency2": "DAI"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "zinli_banco_eur",
+            "attributes": {
+                "price": 0.8591372810385351,
+                "system1": "zinli",
+                "system2": "banco_eur",
+                "currency1": "USD",
+                "currency2": "EUR"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "zinli_banco_mex",
+            "attributes": {
+                "price": 16.965051646763424,
+                "system1": "zinli",
+                "system2": "banco_mex",
+                "currency1": "USD",
+                "currency2": "MXN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "zinli_yape-plin",
+            "attributes": {
+                "price": 3.279882377947218,
+                "system1": "zinli",
+                "system2": "yape-plin",
+                "currency1": "USD",
+                "currency2": "PEN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "zinli_usdc",
+            "attributes": {
+                "price": 0.9803089194763964,
+                "system1": "zinli",
+                "system2": "usdc",
+                "currency1": "USD",
+                "currency2": "USDC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "zinli_usdt",
+            "attributes": {
+                "price": 0.9803089194763964,
+                "system1": "zinli",
+                "system2": "usdt",
+                "currency1": "USD",
+                "currency2": "USDT"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "zinli_pago_movil",
+            "attributes": {
+                "price": 739.3583910427989,
+                "system1": "zinli",
+                "system2": "pago_movil",
+                "currency1": "USD",
+                "currency2": "VES"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdc_banco",
+            "attributes": {
+                "price": 1531.4663984746146,
+                "system1": "usdc",
+                "system2": "banco",
+                "currency1": "USDC",
+                "currency2": "ARS"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdc_banco_bol",
+            "attributes": {
+                "price": 9.926251958660039,
+                "system1": "usdc",
+                "system2": "banco_bol",
+                "currency1": "USDC",
+                "currency2": "BOB"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdc_pix",
+            "attributes": {
+                "price": 5.193313013425183,
+                "system1": "usdc",
+                "system2": "pix",
+                "currency1": "USDC",
+                "currency2": "BRL"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdc_bitcoin",
+            "attributes": {
+                "price": 1.6340470895470237e-5,
+                "system1": "usdc",
+                "system2": "bitcoin",
+                "currency1": "USDC",
+                "currency2": "BTC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdc_transfer-chile",
+            "attributes": {
+                "price": 887.5739644970415,
+                "system1": "usdc",
+                "system2": "transfer-chile",
+                "currency1": "USDC",
+                "currency2": "CLP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdc_bre-b",
+            "attributes": {
+                "price": 3358.736606242829,
+                "system1": "usdc",
+                "system2": "bre-b",
+                "currency1": "USDC",
+                "currency2": "COP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdc_dai",
+            "attributes": {
+                "price": 0.9900990099009901,
+                "system1": "usdc",
+                "system2": "dai",
+                "currency1": "USDC",
+                "currency2": "DAI"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdc_banco_eur",
+            "attributes": {
+                "price": 0.8694474475490579,
+                "system1": "usdc",
+                "system2": "banco_eur",
+                "currency1": "USDC",
+                "currency2": "EUR"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdc_banco_mex",
+            "attributes": {
+                "price": 17.16579658362772,
+                "system1": "usdc",
+                "system2": "banco_mex",
+                "currency1": "USDC",
+                "currency2": "MXN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdc_yape-plin",
+            "attributes": {
+                "price": 3.3189897716503816,
+                "system1": "usdc",
+                "system2": "yape-plin",
+                "currency1": "USDC",
+                "currency2": "PEN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdc_palpal",
+            "attributes": {
+                "price": 1.0853664479696252,
+                "system1": "usdc",
+                "system2": "palpal",
+                "currency1": "USDC",
+                "currency2": "USD"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdc_usdt",
+            "attributes": {
+                "price": 0.992063492063492,
+                "system1": "usdc",
+                "system2": "usdt",
+                "currency1": "USDC",
+                "currency2": "USDT"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdc_pago_movil",
+            "attributes": {
+                "price": 748.1115423214223,
+                "system1": "usdc",
+                "system2": "pago_movil",
+                "currency1": "USDC",
+                "currency2": "VES"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdt_banco",
+            "attributes": {
+                "price": 1531.4663984746146,
+                "system1": "usdt",
+                "system2": "banco",
+                "currency1": "USDT",
+                "currency2": "ARS"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdt_banco_bol",
+            "attributes": {
+                "price": 9.926251958660039,
+                "system1": "usdt",
+                "system2": "banco_bol",
+                "currency1": "USDT",
+                "currency2": "BOB"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdt_pix",
+            "attributes": {
+                "price": 5.193313013425183,
+                "system1": "usdt",
+                "system2": "pix",
+                "currency1": "USDT",
+                "currency2": "BRL"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdt_bitcoin",
+            "attributes": {
+                "price": 1.6340470895470237e-5,
+                "system1": "usdt",
+                "system2": "bitcoin",
+                "currency1": "USDT",
+                "currency2": "BTC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdt_transfer-chile",
+            "attributes": {
+                "price": 887.5739644970415,
+                "system1": "usdt",
+                "system2": "transfer-chile",
+                "currency1": "USDT",
+                "currency2": "CLP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdt_bre-b",
+            "attributes": {
+                "price": 3358.736606242829,
+                "system1": "usdt",
+                "system2": "bre-b",
+                "currency1": "USDT",
+                "currency2": "COP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdt_dai",
+            "attributes": {
+                "price": 0.9900990099009901,
+                "system1": "usdt",
+                "system2": "dai",
+                "currency1": "USDT",
+                "currency2": "DAI"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdt_banco_eur",
+            "attributes": {
+                "price": 0.8694474475490579,
+                "system1": "usdt",
+                "system2": "banco_eur",
+                "currency1": "USDT",
+                "currency2": "EUR"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdt_banco_mex",
+            "attributes": {
+                "price": 17.16579658362772,
+                "system1": "usdt",
+                "system2": "banco_mex",
+                "currency1": "USDT",
+                "currency2": "MXN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdt_yape-plin",
+            "attributes": {
+                "price": 3.3189897716503816,
+                "system1": "usdt",
+                "system2": "yape-plin",
+                "currency1": "USDT",
+                "currency2": "PEN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdt_palpal",
+            "attributes": {
+                "price": 1.0853664479696252,
+                "system1": "usdt",
+                "system2": "palpal",
+                "currency1": "USDT",
+                "currency2": "USD"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdt_usdc",
+            "attributes": {
+                "price": 0.992063492063492,
+                "system1": "usdt",
+                "system2": "usdc",
+                "currency1": "USDT",
+                "currency2": "USDC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "usdt_pago_movil",
+            "attributes": {
+                "price": 748.1115423214223,
+                "system1": "usdt",
+                "system2": "pago_movil",
+                "currency1": "USDT",
+                "currency2": "VES"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pago_movil_banco",
+            "attributes": {
+                "price": 2.006749346596877,
+                "system1": "pago_movil",
+                "system2": "banco",
+                "currency1": "VES",
+                "currency2": "ARS"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pago_movil_banco_bol",
+            "attributes": {
+                "price": 0.01300685765941438,
+                "system1": "pago_movil",
+                "system2": "banco_bol",
+                "currency1": "VES",
+                "currency2": "BOB"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pago_movil_pix",
+            "attributes": {
+                "price": 0.006805086256085796,
+                "system1": "pago_movil",
+                "system2": "pix",
+                "currency1": "VES",
+                "currency2": "BRL"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pago_movil_bitcoin",
+            "attributes": {
+                "price": 2.141173962850435e-8,
+                "system1": "pago_movil",
+                "system2": "bitcoin",
+                "currency1": "VES",
+                "currency2": "BTC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pago_movil_transfer-chile",
+            "attributes": {
+                "price": 1.1630087613336542,
+                "system1": "pago_movil",
+                "system2": "transfer-chile",
+                "currency1": "VES",
+                "currency2": "CLP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pago_movil_bre-b",
+            "attributes": {
+                "price": 4.401125945337504,
+                "system1": "pago_movil",
+                "system2": "bre-b",
+                "currency1": "VES",
+                "currency2": "COP"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pago_movil_dai",
+            "attributes": {
+                "price": 0.0012973675038115116,
+                "system1": "pago_movil",
+                "system2": "dai",
+                "currency1": "VES",
+                "currency2": "DAI"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pago_movil_banco_eur",
+            "attributes": {
+                "price": 0.0011392838314330613,
+                "system1": "pago_movil",
+                "system2": "banco_eur",
+                "currency1": "VES",
+                "currency2": "EUR"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pago_movil_banco_mex",
+            "attributes": {
+                "price": 0.022492207469517946,
+                "system1": "pago_movil",
+                "system2": "banco_mex",
+                "currency1": "VES",
+                "currency2": "MXN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pago_movil_yape-plin",
+            "attributes": {
+                "price": 0.004348956744349392,
+                "system1": "pago_movil",
+                "system2": "yape-plin",
+                "currency1": "VES",
+                "currency2": "PEN"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pago_movil_palpal",
+            "attributes": {
+                "price": 0.0014222079916921767,
+                "system1": "pago_movil",
+                "system2": "palpal",
+                "currency1": "VES",
+                "currency2": "USD"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pago_movil_usdc",
+            "attributes": {
+                "price": 0.0012999506148195982,
+                "system1": "pago_movil",
+                "system2": "usdc",
+                "currency1": "VES",
+                "currency2": "USDC"
+            }
+        },
+        {
+            "type": "best_rates",
+            "id": "pago_movil_usdt",
+            "attributes": {
+                "price": 0.0012999506148195982,
+                "system1": "pago_movil",
+                "system2": "usdt",
+                "currency1": "VES",
+                "currency2": "USDT"
+            }
+        }
+    ]
+}

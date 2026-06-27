@@ -1,0 +1,2645 @@
+{
+    "meta": {
+        "page": 1,
+        "resources_per_page": 100,
+        "total_resources": 44
+    },
+    "data": [
+        {
+            "type": "systems",
+            "id": "advcash",
+            "attributes": {
+                "name": "Advanced Cash",
+                "replacement_system_id": "volet",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.7472,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 10,
+                "minimum_amount_receive": 10,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "email",
+                "group_id": "volet",
+                "market": "fiat",
+                "trend": -0.061968175395888,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/advcash/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/advcash/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "aphold",
+            "attributes": {
+                "name": "Uphold",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.995,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 10,
+                "minimum_amount_receive": 10,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "email",
+                "group_id": "aphold",
+                "market": "fiat",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/aphold/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/aphold/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "balance",
+            "attributes": {
+                "name": "Balance",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0,
+                "account_required_send": false,
+                "account_required_receive": false,
+                "minimum_amount_send": 15,
+                "minimum_amount_receive": 15,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "email",
+                "group_id": "balance",
+                "market": "balance",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/balance/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/balance/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "banco",
+            "attributes": {
+                "name": "Transferencia bancaria Argentina",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "ARS",
+                "currency_id": "ARS",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.3992,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 6215.538734624,
+                "minimum_amount_receive": 6215.538734624,
+                "maximum_amount_send": 13984962.152904,
+                "maximum_amount_receive": 13984962.152904,
+                "account_type": "argentina_bank_account",
+                "group_id": "ars_bank",
+                "market": "fiat",
+                "trend": 0.18567689601105,
+                "account_detail_required": "yes",
+                "bank_required": false,
+                "identification_number_required": true,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/banco/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/banco/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "ARS"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "banco_ar_usd",
+            "attributes": {
+                "name": "Transferencia bancaria Argentina en dólares",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.449,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 15,
+                "minimum_amount_receive": 15,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "argentina_bank_account",
+                "group_id": "banco_ar_usd",
+                "market": "fiat",
+                "trend": 0.2792597601302,
+                "account_detail_required": "yes",
+                "bank_required": false,
+                "identification_number_required": true,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/banco_ar_usd/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/banco_ar_usd/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "banco_bol",
+            "attributes": {
+                "name": "Transferencia Bancaria Bolivia",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "BOB",
+                "currency_id": "BOB",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.449,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 148.334139980394,
+                "minimum_amount_receive": 148.334139980394,
+                "maximum_amount_send": 89000.4839882364,
+                "maximum_amount_receive": 89000.4839882364,
+                "account_type": "bolivia_account",
+                "group_id": "banco_bol",
+                "market": "fiat",
+                "trend": -0.14907351901026,
+                "account_detail_required": "yes",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "account_address"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/banco_bol/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/banco_bol/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "BOB"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "banco_col",
+            "attributes": {
+                "name": "Transferencia bancaria Colombia",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "COP",
+                "currency_id": "COP",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.449,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 30946.881010700698,
+                "minimum_amount_receive": 13754.1693380892,
+                "maximum_amount_send": 30946881.0107007,
+                "maximum_amount_receive": 30946881.0107007,
+                "account_type": "colombia_bank_account",
+                "group_id": "col_bank",
+                "market": "fiat",
+                "trend": -0.26140649796871,
+                "account_detail_required": "yes",
+                "bank_required": true,
+                "identification_number_required": true,
+                "bank_strategy": "account_details"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/banco_col/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/banco_col/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "COP"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "banco_eur",
+            "attributes": {
+                "name": "Transferencia bancaria Europa",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "EUR",
+                "currency_id": "EUR",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.3992,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 7.90168063924233,
+                "minimum_amount_receive": 3.51185806188548,
+                "maximum_amount_send": 7901.68063924233,
+                "maximum_amount_receive": 7901.68063924233,
+                "account_type": "europe_bank_account",
+                "group_id": "eur_bank",
+                "market": "fiat",
+                "trend": -0.35743703087999,
+                "account_detail_required": "yes",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/banco_eur/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/banco_eur/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "EUR"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "banco_mex",
+            "attributes": {
+                "name": "Transferencia bancaria México",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "MXN",
+                "currency_id": "MXN",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.4988,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 157.513723302915,
+                "minimum_amount_receive": 70.00609924574,
+                "maximum_amount_send": 157513.723302915,
+                "maximum_amount_receive": 157513.723302915,
+                "account_type": "mexico_bank_account",
+                "group_id": "mxn_bank",
+                "market": "fiat",
+                "trend": 1,
+                "account_detail_required": "optional",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/banco_mex/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/banco_mex/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "MXN"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "banco_ves",
+            "attributes": {
+                "name": "Transferencia bancaria Venezuela",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "VES",
+                "currency_id": "VES",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.4988,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 6948.59930523207,
+                "minimum_amount_receive": 3088.26635788092,
+                "maximum_amount_send": 6948599.30523207,
+                "maximum_amount_receive": 6948599.30523207,
+                "account_type": "venezuela_bank_account",
+                "group_id": "banco_ves",
+                "market": "fiat",
+                "trend": 1,
+                "account_detail_required": "yes",
+                "bank_required": false,
+                "identification_number_required": true,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/banco_ves/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/banco_ves/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "VES"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "bitcoin",
+            "attributes": {
+                "name": "Bitcoin",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "BTC",
+                "currency_id": "BTC",
+                "default_network_id": "bnb",
+                "decimal_places": 8,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.3992,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 6.5884778650536e-5,
+                "minimum_amount_receive": 1.6471194662634e-5,
+                "maximum_amount_send": 0.148240751963706,
+                "maximum_amount_receive": 0.148240751963706,
+                "account_type": "bitcoin_address",
+                "group_id": "bitcoin",
+                "market": "crypto",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/bitcoin/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/bitcoin/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "BTC"
+                    }
+                },
+                "networks": {
+                    "data": [
+                        {
+                            "type": "networks",
+                            "id": "bitcoin"
+                        },
+                        {
+                            "type": "networks",
+                            "id": "bnb"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "bre-b",
+            "attributes": {
+                "name": "Bre-B",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "COP",
+                "currency_id": "COP",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.4241,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 30946.881010700698,
+                "minimum_amount_receive": 13754.1693380892,
+                "maximum_amount_send": 30946881.0107007,
+                "maximum_amount_receive": 30946881.0107007,
+                "account_type": "pix_account",
+                "group_id": "bre-b",
+                "market": "fiat",
+                "trend": -0.26140649796871,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/bre-b/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/bre-b/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "COP"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "cash_usd",
+            "attributes": {
+                "name": "Efectivo USD",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 2.9563,
+                "account_required_send": false,
+                "account_required_receive": false,
+                "minimum_amount_send": 15,
+                "minimum_amount_receive": 15,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "email",
+                "group_id": "cash_usd",
+                "market": "fiat",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/cash_usd/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/cash_usd/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "cuentadigital",
+            "attributes": {
+                "name": "Cuenta Digital",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "ARS",
+                "currency_id": "ARS",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 0.0248,
+                "fee_receive": 0,
+                "external_fee_send": 0.0248,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 5.3565,
+                "account_required_send": true,
+                "account_required_receive": true,
+                "minimum_amount_send": 23308.27025484,
+                "minimum_amount_receive": 23308.27025484,
+                "maximum_amount_send": 13984962.152904,
+                "maximum_amount_receive": 13984962.152904,
+                "account_type": "cuenta_digital_account",
+                "group_id": "cuentadigital",
+                "market": "fiat",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/cuentadigital/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/cuentadigital/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "ARS"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "cupon",
+            "attributes": {
+                "name": "Pago Fácil, RapiPago, Cobro Express",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "ARS",
+                "currency_id": "ARS",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 1000,
+                "fee_receive": 0,
+                "external_fee_send": 1000,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 8.1665,
+                "account_required_send": false,
+                "account_required_receive": false,
+                "minimum_amount_send": 15538.846836560002,
+                "minimum_amount_receive": 15538.846836560002,
+                "maximum_amount_send": 13984962.152904,
+                "maximum_amount_receive": 13984962.152904,
+                "account_type": "",
+                "group_id": "cupon",
+                "market": "fiat",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/cupon/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/cupon/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "ARS"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "dai",
+            "attributes": {
+                "name": "DAI criptomoneda",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "DAI",
+                "currency_id": "DAI",
+                "default_network_id": "bnb",
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.5982,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 4,
+                "minimum_amount_receive": 100,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "ethereum_address",
+                "group_id": "dai",
+                "market": "crypto",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/dai/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/dai/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "DAI"
+                    }
+                },
+                "networks": {
+                    "data": [
+                        {
+                            "type": "networks",
+                            "id": "bnb"
+                        },
+                        {
+                            "type": "networks",
+                            "id": "ethereum"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "ethereum",
+            "attributes": {
+                "name": "Ethereum",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "ETH",
+                "currency_id": "ETH",
+                "default_network_id": "bnb",
+                "decimal_places": 8,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 5.8301,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 0.00937189172235885,
+                "minimum_amount_receive": 0.00937189172235885,
+                "maximum_amount_send": 5.62313503341531,
+                "maximum_amount_receive": 5.62313503341531,
+                "account_type": "ethereum_address",
+                "group_id": "ethereum",
+                "market": "crypto",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/ethereum/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/ethereum/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "ETH"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "mercadopago",
+            "attributes": {
+                "name": "MercadoPago",
+                "replacement_system_id": "mercadopago2",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "ARS",
+                "currency_id": "ARS",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 0.0599,
+                "fee_receive": 0,
+                "external_fee_send": 0.0599,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 4.4031,
+                "account_required_send": true,
+                "account_required_receive": true,
+                "minimum_amount_send": 23308.27025484,
+                "minimum_amount_receive": 23308.27025484,
+                "maximum_amount_send": 13984962.152904,
+                "maximum_amount_receive": 13984962.152904,
+                "account_type": "email",
+                "group_id": "mercadopago",
+                "market": "fiat",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/mercadopago/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/mercadopago/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "ARS"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "mercadopago-credito",
+            "attributes": {
+                "name": "Mercado Pago (tarjeta de crédito)",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "ARS",
+                "currency_id": "ARS",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": true,
+                "can_receive": false,
+                "fee_send": 0.036,
+                "fee_receive": 0,
+                "external_fee_send": 0.036,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 14.0175,
+                "account_required_send": true,
+                "account_required_receive": false,
+                "minimum_amount_send": 6215.538734624,
+                "minimum_amount_receive": 6215.538734624,
+                "maximum_amount_send": 13984962.152904,
+                "maximum_amount_receive": 13984962.152904,
+                "account_type": "email",
+                "group_id": "mercadopago-credito",
+                "market": "fiat",
+                "trend": 0.18567689601105,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/mercadopago-credito/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/mercadopago-credito/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "ARS"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "mercadopago2",
+            "attributes": {
+                "name": "Mercado Pago",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "ARS",
+                "currency_id": "ARS",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.3992,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 6215.538734624,
+                "minimum_amount_receive": 6215.538734624,
+                "maximum_amount_send": 13984962.152904,
+                "maximum_amount_receive": 13984962.152904,
+                "account_type": "argentina_bank_account",
+                "group_id": "ars_bank",
+                "market": "fiat",
+                "trend": 0.18567689601105,
+                "account_detail_required": "yes",
+                "bank_required": false,
+                "identification_number_required": true,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/mercadopago2/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/mercadopago2/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "ARS"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "moneygram",
+            "attributes": {
+                "name": "MoneyGram",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 9.0871,
+                "account_required_send": false,
+                "account_required_receive": false,
+                "minimum_amount_send": 500,
+                "minimum_amount_receive": 500,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "",
+                "group_id": "moneygram",
+                "market": "fiat",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/moneygram/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/moneygram/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "nequi",
+            "attributes": {
+                "name": "Nequi",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "COP",
+                "currency_id": "COP",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.449,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 30946.881010700698,
+                "minimum_amount_receive": 13754.1693380892,
+                "maximum_amount_send": 30946881.0107007,
+                "maximum_amount_receive": 30946881.0107007,
+                "account_type": "nequi_account",
+                "group_id": "nequi",
+                "market": "fiat",
+                "trend": -0.26140649796871,
+                "account_detail_required": "yes",
+                "bank_required": false,
+                "identification_number_required": true,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/nequi/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/nequi/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "COP"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "neteller",
+            "attributes": {
+                "name": "Neteller",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 1000,
+                "external_fee_send": 0,
+                "external_fee_receive": 1000,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0.5,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.5485,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 10,
+                "minimum_amount_receive": 10,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "email",
+                "group_id": "neteller",
+                "market": "fiat",
+                "trend": -1,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/neteller/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/neteller/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "pago_movil",
+            "attributes": {
+                "name": "Pago Móvil Venezuela",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "VES",
+                "currency_id": "VES",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.449,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 6948.59930523207,
+                "minimum_amount_receive": 3088.26635788092,
+                "maximum_amount_send": 6948599.30523207,
+                "maximum_amount_receive": 6948599.30523207,
+                "account_type": "pago_movil_account",
+                "group_id": "pago_movil",
+                "market": "fiat",
+                "trend": 1,
+                "account_detail_required": "yes",
+                "bank_required": false,
+                "identification_number_required": true,
+                "bank_strategy": "account_address"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/pago_movil/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/pago_movil/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "VES"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "palpal",
+            "attributes": {
+                "name": "PayPal",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 1000,
+                "fee_receive": 0,
+                "external_fee_send": 1000,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0.4,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.449,
+                "account_required_send": true,
+                "account_required_receive": true,
+                "minimum_amount_send": 5,
+                "minimum_amount_receive": 10,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "email",
+                "group_id": "palpal",
+                "market": "fiat",
+                "trend": -0.02898201410376,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/palpal/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/palpal/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "payeer",
+            "attributes": {
+                "name": "Payeer",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 0.005,
+                "fee_receive": 0,
+                "external_fee_send": 0.005,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.6479,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 10,
+                "minimum_amount_receive": 10,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "payeer_account",
+                "group_id": "payeer",
+                "market": "fiat",
+                "trend": -0.920074854805,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/payeer/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/payeer/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "payoneer",
+            "attributes": {
+                "name": "Payoneer",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 1000,
+                "external_fee_send": 0,
+                "external_fee_receive": 1000,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 2,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.449,
+                "account_required_send": true,
+                "account_required_receive": true,
+                "minimum_amount_send": 50,
+                "minimum_amount_receive": 50,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "email",
+                "group_id": "payoneer",
+                "market": "fiat",
+                "trend": 1,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/payoneer/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/payoneer/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "perfectmoney",
+            "attributes": {
+                "name": "Perfect Money",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 0,
+                "fee_receive": 0.0199,
+                "external_fee_send": 0,
+                "external_fee_receive": 0.0199,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.995,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 10,
+                "minimum_amount_receive": 10,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "perfect_money_account",
+                "group_id": "perfectmoney",
+                "market": "fiat",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/perfectmoney/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/perfectmoney/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "pix",
+            "attributes": {
+                "name": "Pix Brasil",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "BRL",
+                "currency_id": "BRL",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.449,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 52.432913020623,
+                "minimum_amount_receive": 52.432913020623,
+                "maximum_amount_send": 47189.621718560695,
+                "maximum_amount_receive": 47189.621718560695,
+                "account_type": "pix_account",
+                "group_id": "pix",
+                "market": "fiat",
+                "trend": -0.6075957089061,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/pix/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/pix/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "BRL"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "skrill",
+            "attributes": {
+                "name": "Skrill",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 1000,
+                "external_fee_send": 0,
+                "external_fee_receive": 1000,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0.55,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.4988,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 10,
+                "minimum_amount_receive": 10,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "email",
+                "group_id": "skrill",
+                "market": "fiat",
+                "trend": -1,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/skrill/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/skrill/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "transfer-chile",
+            "attributes": {
+                "name": "Transferencia bancaria Chile",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "CLP",
+                "currency_id": "CLP",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 900,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.995,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 18000,
+                "minimum_amount_receive": 18000,
+                "maximum_amount_send": 8100000,
+                "maximum_amount_receive": 8100000,
+                "account_type": "chile_bank_account",
+                "group_id": "transfer-chile",
+                "market": "fiat",
+                "trend": 0,
+                "account_detail_required": "yes",
+                "bank_required": true,
+                "identification_number_required": true,
+                "bank_strategy": "account_details"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/transfer-chile/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/transfer-chile/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "CLP"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "transfer-peru",
+            "attributes": {
+                "name": "Transferencia bancaria Perú",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "PEN",
+                "currency_id": "PEN",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 2.9699999999999998,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.995,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 29.7,
+                "minimum_amount_receive": 13.2,
+                "maximum_amount_send": 29700,
+                "maximum_amount_receive": 29700,
+                "account_type": "peru_bank_account",
+                "group_id": "transfer-peru",
+                "market": "fiat",
+                "trend": 0,
+                "account_detail_required": "yes",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/transfer-peru/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/transfer-peru/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "PEN"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "transferwise",
+            "attributes": {
+                "name": "Wise transferencia IBAN",
+                "replacement_system_id": "wise_eur",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "EUR",
+                "currency_id": "EUR",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.4988,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 4.38982257735685,
+                "minimum_amount_receive": 8.7796451547137,
+                "maximum_amount_send": 7901.68063924233,
+                "maximum_amount_receive": 7901.68063924233,
+                "account_type": "europe_bank_account",
+                "group_id": "transferwise",
+                "market": "fiat",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/transferwise/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/transferwise/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "EUR"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "uala",
+            "attributes": {
+                "name": "Ualá Tarjeta",
+                "replacement_system_id": "uala2",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "ARS",
+                "currency_id": "ARS",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 2.4695,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 6215.538734624,
+                "minimum_amount_receive": 23308.27025484,
+                "maximum_amount_send": 13984962.152904,
+                "maximum_amount_receive": 13984962.152904,
+                "account_type": "uala_address",
+                "group_id": "uala",
+                "market": "fiat",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/uala/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/uala/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "ARS"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "uala2",
+            "attributes": {
+                "name": "Ualá",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "ARS",
+                "currency_id": "ARS",
+                "default_network_id": null,
+                "decimal_places": 0,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.3992,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 6215.538734624,
+                "minimum_amount_receive": 6215.538734624,
+                "maximum_amount_send": 13984962.152904,
+                "maximum_amount_receive": 13984962.152904,
+                "account_type": "argentina_bank_account",
+                "group_id": "ars_bank",
+                "market": "fiat",
+                "trend": 0.18567689601105,
+                "account_detail_required": "yes",
+                "bank_required": false,
+                "identification_number_required": true,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/uala2/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/uala2/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "ARS"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "usdc",
+            "attributes": {
+                "name": "USDC (USD Coin)",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USDC",
+                "currency_id": "USDC",
+                "default_network_id": "bnb",
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.3992,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 5,
+                "minimum_amount_receive": 7.5,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "ethereum_address",
+                "group_id": "usdc",
+                "market": "crypto",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/usdc/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/usdc/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USDC"
+                    }
+                },
+                "networks": {
+                    "data": [
+                        {
+                            "type": "networks",
+                            "id": "bnb"
+                        },
+                        {
+                            "type": "networks",
+                            "id": "ethereum"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "usdt",
+            "attributes": {
+                "name": "Tether USDT",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USDT",
+                "currency_id": "USDT",
+                "default_network_id": "bnb",
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.3992,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 5,
+                "minimum_amount_receive": 7.5,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "trc20_bep20_address",
+                "group_id": "usdt",
+                "market": "crypto",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/usdt/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/usdt/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USDT"
+                    }
+                },
+                "networks": {
+                    "data": [
+                        {
+                            "type": "networks",
+                            "id": "bnb"
+                        },
+                        {
+                            "type": "networks",
+                            "id": "ethereum"
+                        },
+                        {
+                            "type": "networks",
+                            "id": "tron"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "vcc",
+            "attributes": {
+                "name": "Tarjeta VCC para verificar",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": false,
+                "can_receive": false,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 3.4408,
+                "account_required_send": false,
+                "account_required_receive": false,
+                "minimum_amount_send": 15,
+                "minimum_amount_receive": 15,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "",
+                "group_id": "vcc",
+                "market": "product",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/vcc/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/vcc/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "volet",
+            "attributes": {
+                "name": "Volet",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.7472,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 10,
+                "minimum_amount_receive": 10,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "email",
+                "group_id": "volet",
+                "market": "fiat",
+                "trend": -0.061968175395888,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/volet/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/volet/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "wise_eur",
+            "attributes": {
+                "name": "Wise EUR",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "EUR",
+                "currency_id": "EUR",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.4241,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 4.38982257735685,
+                "minimum_amount_receive": 8.7796451547137,
+                "maximum_amount_send": 7901.68063924233,
+                "maximum_amount_receive": 7901.68063924233,
+                "account_type": "wisetag_or_email",
+                "group_id": "wise_eur",
+                "market": "fiat",
+                "trend": -0.35743703087999,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/wise_eur/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/wise_eur/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "EUR"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "wise_usd",
+            "attributes": {
+                "name": "Wise USD",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.449,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 5,
+                "minimum_amount_receive": 10,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "wisetag_or_email",
+                "group_id": "wise_usd",
+                "market": "fiat",
+                "trend": -0.68488988178925,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/wise_usd/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/wise_usd/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "yape-plin",
+            "attributes": {
+                "name": "Yape y Plin Soles Perú",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "PEN",
+                "currency_id": "PEN",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 2.9699999999999998,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.9455,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 29.7,
+                "minimum_amount_receive": 13.2,
+                "maximum_amount_send": 29700,
+                "maximum_amount_receive": 29700,
+                "account_type": "yape_account",
+                "group_id": "yape-plin",
+                "market": "fiat",
+                "trend": 0,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/yape-plin/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/yape-plin/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "PEN"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "zelle",
+            "attributes": {
+                "name": "Zelle",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.449,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 9,
+                "minimum_amount_receive": 5,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "email_or_phone",
+                "group_id": "zelle",
+                "market": "fiat",
+                "trend": -0.39452781627256,
+                "account_detail_required": "optional",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/zelle/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/zelle/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "systems",
+            "id": "zinli",
+            "attributes": {
+                "name": "Zinli",
+                "replacement_system_id": "",
+                "alternative_name": null,
+                "amount": null,
+                "currency": "USD",
+                "currency_id": "USD",
+                "default_network_id": null,
+                "decimal_places": 2,
+                "can_send": true,
+                "can_receive": true,
+                "fee_send": 0,
+                "fee_receive": 0,
+                "external_fee_send": 0,
+                "external_fee_receive": 0,
+                "fixed_fee_send": 0,
+                "fixed_fee_receive": 0,
+                "percent_fee_send": 0,
+                "percent_fee_receive": 0.449,
+                "account_required_send": false,
+                "account_required_receive": true,
+                "minimum_amount_send": 15,
+                "minimum_amount_receive": 15,
+                "maximum_amount_send": 9000,
+                "maximum_amount_receive": 9000,
+                "account_type": "email",
+                "group_id": "zinli",
+                "market": "fiat",
+                "trend": -1,
+                "account_detail_required": "no",
+                "bank_required": false,
+                "identification_number_required": false,
+                "bank_strategy": "none"
+            },
+            "relationships": {
+                "rates": {
+                    "links": {
+                        "related": "/systems/zinli/rates"
+                    }
+                },
+                "information": {
+                    "links": {
+                        "related": "/systems/zinli/information"
+                    }
+                },
+                "currency": {
+                    "data": {
+                        "type": "currencies",
+                        "id": "USD"
+                    }
+                },
+                "networks": {
+                    "data": []
+                }
+            }
+        }
+    ]
+}

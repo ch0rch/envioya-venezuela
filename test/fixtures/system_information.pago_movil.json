@@ -1,0 +1,33 @@
+{
+    "meta": {
+        "page": 1,
+        "resources_per_page": 50,
+        "total_resources": 1
+    },
+    "data": [
+        {
+            "type": "system_information",
+            "id": "15",
+            "attributes": {
+                "description": "Para realizar Pago Móvil en Venezuela, es necesario contar con el código bancario del destinatario, así como el número de teléfono celular asociado y su número de cédula. Cabe destacar que el pago es procesado de forma inmediata y no se puede revertir, por lo que es importante verificar cuidadosamente la información antes de confirmar el pago.\n\n\n\n\n",
+                "pros": "Pago inmediato, seguridad ante errores en datos ingresados.",
+                "cons": "Si estan mal los datos de quien recibe se retrasa el pago en su pedido.",
+                "tags": "Pago móvil Venezuela",
+                "name": "Pago Móvil Venezuela",
+                "alternative_name": "bolívares por Pago Móvil",
+                "time_average": 17,
+                "trend_by_day": "8,7,7,7,7,7,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,6,6,6,4",
+                "trend_by_weekday": "8,7,8,8,8,5,4",
+                "alternative_system_ids": "banco_ves",
+                "on_time_percent": 0,
+                "volume": 1,
+                "qty_user_per_system": 1237,
+                "qty_sent_transaction": 1324,
+                "qty_coordinated_transaction": 3312
+            },
+            "links": {
+                "self": "/system_information/15"
+            }
+        }
+    ]
+}

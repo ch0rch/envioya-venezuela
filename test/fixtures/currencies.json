@@ -1,0 +1,1051 @@
+{
+    "meta": {
+        "page": 1,
+        "resources_per_page": 50,
+        "total_resources": 20
+    },
+    "data": [
+        {
+            "type": "currencies",
+            "id": "ARS",
+            "attributes": {
+                "key": "ARS",
+                "price": 1553.977,
+                "default_minimum": 23308.27025484,
+                "rank": 110
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "banco_banco_bol"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_pix"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bitcoin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_transfer-chile"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bre-b"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_dai"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_banco_eur"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_banco_mex"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_yape-plin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_palpal"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_usdc"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_usdt"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_pago_movil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "BNB",
+            "attributes": {
+                "key": "BNB",
+                "price": 0.0017672840378906,
+                "default_minimum": 0.026542814263242,
+                "rank": 200
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "BOB",
+            "attributes": {
+                "key": "BOB",
+                "price": 9.88625,
+                "default_minimum": 148.334139980394,
+                "rank": 100
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bol_banco"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bol_pix"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bol_bitcoin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bol_transfer-chile"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bol_bre-b"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bol_dai"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bol_banco_eur"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bol_banco_mex"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bol_yape-plin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bol_palpal"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bol_usdc"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bol_usdt"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_bol_pago_movil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "BRL",
+            "attributes": {
+                "key": "BRL",
+                "price": 5.2432732732061,
+                "default_minimum": 78.6493695309345,
+                "rank": 8
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "pix_banco"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pix_banco_bol"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pix_bitcoin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pix_transfer-chile"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pix_bre-b"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pix_dai"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pix_banco_eur"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pix_banco_mex"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pix_yape-plin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pix_palpal"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pix_usdc"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pix_usdt"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pix_pago_movil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "BSF",
+            "attributes": {
+                "key": "BSF",
+                "price": 1.0001,
+                "default_minimum": 15.0015,
+                "rank": 11
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "BTC",
+            "attributes": {
+                "key": "BTC",
+                "price": 1.6453567600324e-5,
+                "default_minimum": 0.00024706791993951,
+                "rank": 1
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "bitcoin_banco"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bitcoin_banco_bol"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bitcoin_pix"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bitcoin_transfer-chile"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bitcoin_bre-b"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bitcoin_dai"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bitcoin_banco_eur"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bitcoin_banco_mex"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bitcoin_yape-plin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bitcoin_palpal"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bitcoin_usdc"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bitcoin_usdt"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bitcoin_pago_movil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "CLP",
+            "attributes": {
+                "key": "CLP",
+                "price": 900,
+                "default_minimum": 13500,
+                "rank": 10
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "transfer-chile_banco"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "transfer-chile_banco_bol"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "transfer-chile_pix"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "transfer-chile_bitcoin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "transfer-chile_bre-b"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "transfer-chile_dai"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "transfer-chile_banco_eur"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "transfer-chile_banco_mex"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "transfer-chile_yape-plin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "transfer-chile_palpal"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "transfer-chile_usdc"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "transfer-chile_usdt"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "transfer-chile_pago_movil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "COP",
+            "attributes": {
+                "key": "COP",
+                "price": 3438.1408846,
+                "default_minimum": 51578.135017834495,
+                "rank": 111
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "bre-b_banco"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bre-b_banco_bol"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bre-b_pix"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bre-b_bitcoin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bre-b_transfer-chile"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bre-b_dai"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bre-b_banco_eur"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bre-b_banco_mex"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bre-b_yape-plin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bre-b_palpal"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bre-b_usdc"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bre-b_usdt"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "bre-b_pago_movil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "DAI",
+            "attributes": {
+                "key": "DAI",
+                "price": 1,
+                "default_minimum": 15,
+                "rank": 3
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "dai_banco"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "dai_banco_bol"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "dai_pix"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "dai_bitcoin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "dai_transfer-chile"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "dai_bre-b"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "dai_banco_eur"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "dai_banco_mex"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "dai_yape-plin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "dai_palpal"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "dai_usdc"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "dai_usdt"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "dai_pago_movil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "ETH",
+            "attributes": {
+                "key": "ETH",
+                "price": 0.00062344917018917,
+                "default_minimum": 0.00937189172235885,
+                "rank": 200
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "EUR",
+            "attributes": {
+                "key": "EUR",
+                "price": 0.87796196390169,
+                "default_minimum": 13.16946773207055,
+                "rank": 5
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "banco_eur_banco"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_eur_banco_bol"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_eur_pix"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_eur_bitcoin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_eur_transfer-chile"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_eur_bre-b"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_eur_dai"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_eur_banco_mex"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_eur_yape-plin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_eur_palpal"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_eur_usdc"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_eur_usdt"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_eur_pago_movil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "mBTC",
+            "attributes": {
+                "key": "mBTC",
+                "price": 0.018313263629298,
+                "default_minimum": 0.2746989,
+                "rank": 2
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "MXN",
+            "attributes": {
+                "key": "MXN",
+                "price": 17.504222909809,
+                "default_minimum": 262.522872171525,
+                "rank": 9
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "banco_mex_banco"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_mex_banco_bol"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_mex_pix"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_mex_bitcoin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_mex_transfer-chile"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_mex_bre-b"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_mex_dai"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_mex_banco_eur"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_mex_yape-plin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_mex_palpal"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_mex_usdc"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_mex_usdt"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "banco_mex_pago_movil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "PEN",
+            "attributes": {
+                "key": "PEN",
+                "price": 3.3,
+                "default_minimum": 49.5,
+                "rank": 9
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "yape-plin_banco"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "yape-plin_banco_bol"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "yape-plin_pix"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "yape-plin_bitcoin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "yape-plin_transfer-chile"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "yape-plin_bre-b"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "yape-plin_dai"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "yape-plin_banco_eur"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "yape-plin_banco_mex"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "yape-plin_palpal"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "yape-plin_usdc"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "yape-plin_usdt"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "yape-plin_pago_movil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "POL",
+            "attributes": {
+                "key": "POL",
+                "price": 13.922147352008,
+                "default_minimum": 209.009021432415,
+                "rank": 200
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "TRX",
+            "attributes": {
+                "key": "TRX",
+                "price": 3.1206213781288,
+                "default_minimum": 46.824500457723005,
+                "rank": 200
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": []
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "USD",
+            "attributes": {
+                "key": "USD",
+                "price": 1,
+                "default_minimum": 15,
+                "rank": 6
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "zinli_banco"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "zinli_banco_bol"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "zinli_pix"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "zinli_bitcoin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "zinli_transfer-chile"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "zinli_bre-b"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "zinli_dai"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "zinli_banco_eur"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "zinli_banco_mex"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "zinli_yape-plin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "zinli_usdc"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "zinli_usdt"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "zinli_pago_movil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "USDC",
+            "attributes": {
+                "key": "USDC",
+                "price": 1,
+                "default_minimum": 15,
+                "rank": 4
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "usdc_banco"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdc_banco_bol"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdc_pix"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdc_bitcoin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdc_transfer-chile"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdc_bre-b"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdc_dai"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdc_banco_eur"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdc_banco_mex"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdc_yape-plin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdc_palpal"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdc_usdt"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdc_pago_movil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "USDT",
+            "attributes": {
+                "key": "USDT",
+                "price": 1,
+                "default_minimum": 15,
+                "rank": 4
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "usdt_banco"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdt_banco_bol"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdt_pix"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdt_bitcoin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdt_transfer-chile"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdt_bre-b"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdt_dai"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdt_banco_eur"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdt_banco_mex"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdt_yape-plin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdt_palpal"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdt_usdc"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "usdt_pago_movil"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "currencies",
+            "id": "VES",
+            "attributes": {
+                "key": "VES",
+                "price": 771.9961875,
+                "default_minimum": 11580.99884205345,
+                "rank": 10
+            },
+            "relationships": {
+                "best_rates": {
+                    "data": [
+                        {
+                            "type": "best_rates",
+                            "id": "pago_movil_banco"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pago_movil_banco_bol"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pago_movil_pix"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pago_movil_bitcoin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pago_movil_transfer-chile"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pago_movil_bre-b"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pago_movil_dai"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pago_movil_banco_eur"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pago_movil_banco_mex"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pago_movil_yape-plin"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pago_movil_palpal"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pago_movil_usdc"
+                        },
+                        {
+                            "type": "best_rates",
+                            "id": "pago_movil_usdt"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
