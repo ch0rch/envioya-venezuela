@@ -1,0 +1,9 @@
+---
+interface Props { systemId: string; alt: string; size?: string }
+const { systemId, alt, size = 'small' } = Astro.props;
+const base = `https://api.saldo.com.ar/img/sistemas2/${systemId}-saldo.${size}`;
+---
+<picture class="system-logo">
+  <source srcset={`${base}.webp`} type="image/webp" />
+  <img src={`${base}.png`} alt={alt} width="32" height="32" loading="lazy" />
+</picture>
