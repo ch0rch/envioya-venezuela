@@ -6,6 +6,7 @@ import { availableCorridors } from '../lib/corridors';
 import type { Corridor } from '../lib/corridors';
 import OriginSelect from '../components/OriginSelect.astro';
 import ResultList from '../components/ResultList.astro';
+import MethodSwitcher from '../components/MethodSwitcher.astro';
 
 const params = Astro.url.searchParams;
 const from = params.get('from');
@@ -343,6 +344,14 @@ const hasQuery = Boolean(from && Number.isFinite(amount) && amount > 0);
     .cta:hover { background: var(--accent-hover); }
     .cta-note { font-size: .75rem; color: var(--text-secondary); margin-top: .4rem; }
 
+    /* --- Method switcher --- */
+    .switcher { margin-top: 2rem; }
+    .switcher h2 { font-size: 1rem; }
+    .switcher-sub { color: var(--text-secondary); font-size: .85rem; margin-bottom: .75rem; }
+    .switcher-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+    .switch-item { display: flex; align-items: center; gap: .5rem; padding: .6rem; border: 1px solid var(--divider); border-radius: 10px; background: #fff; text-decoration: none; color: var(--text-primary); }
+    .switch-item:hover { border-color: var(--brand); }
+
     /* --- Reduced motion --- */
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { transition: none !important; }
@@ -375,6 +384,7 @@ const hasQuery = Boolean(from && Number.isFinite(amount) && amount > 0);
                 <strong>Tu familiar solo necesita:</strong> teléfono + cédula.
                 No hace falta ir al banco.
               </aside>
+              <MethodSwitcher corridors={corridors} current={from} amount={amount} />
               {minsAgo !== null && <p class="freshness">Datos de hace {minsAgo} min · estimados, confirmá el monto final en Saldoar.</p>}
             </section>
           )}

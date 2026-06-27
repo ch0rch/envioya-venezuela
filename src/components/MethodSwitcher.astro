@@ -1,0 +1,21 @@
+---
+import type { Corridor } from '../lib/corridors';
+import SystemLogo from './SystemLogo.astro';
+interface Props { corridors: Corridor[]; current: string; amount: number }
+const { corridors, current, amount } = Astro.props;
+const others = corridors.filter((c) => c.currency !== current);
+---
+{others.length > 0 && (
+  <section class="switcher">
+    <h2>¿Mandás con otra cosa?</h2>
+    <p class="switcher-sub">Elegí el método que ya usás.</p>
+    <div class="switcher-grid">
+      {others.map((c) => (
+        <a class="switch-item" href={`/?from=${c.currency}&amount=${amount}`}>
+          <SystemLogo systemId={c.systemId} alt={c.label} />
+          <span>{c.flag} {c.label}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+)}
