@@ -13,10 +13,21 @@ const ds: Dataset = {
 };
 
 describe('availableCorridors', () => {
-  it('returns distinct origin currencies with labels', () => {
+  it('returns distinct origin currencies with labels, locale-sorted', () => {
     const c = availableCorridors(ds);
-    const currencies = c.map((x) => x.currency).sort();
-    expect(currencies).toEqual(['USD', 'USDT']);
+    expect(c.map((x) => x.currency)).toEqual(['USD', 'USDT']);
     expect(c.find((x) => x.currency === 'USD')?.label).toContain('Dólar');
+  });
+
+  it('falls back to raw code and default flag for unknown currencies', () => {
+    const dsUnknown: Dataset = {
+      rates: [
+        { price: 1, system1: 'x', system2: 'pago_movil', currency1: 'XYZ', currency2: 'VES' },
+      ],
+      systems: {},
+      pagoMovilInfo: { timeAverage: 17, onTimePercent: 98 },
+    };
+    const c = availableCorridors(dsUnknown);
+    expect(c).toEqual([{ currency: 'XYZ', label: 'XYZ', flag: '💱' }]);
   });
 });
