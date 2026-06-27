@@ -2,7 +2,7 @@
 
 Herramienta web para ayudar a quienes están en el exterior a hacer llegar dinero a sus familias en Venezuela de la forma más conveniente, vía **Pago Móvil**.
 
-Construida para la hackathon **[Build4Venezuela](https://build4venezuela.com)**, en respuesta a los terremotos de junio de 2026.
+Una iniciativa personal en respuesta a los terremotos de junio de 2026 en Venezuela.
 
 ## Qué hace
 
@@ -31,7 +31,7 @@ npm test
 
 ## Sobre el proyecto
 
-Proyecto humanitario sin fines de lucro, hecho para la hackathon Build4Venezuela. La cotización y el envío del dinero los provee y ejecuta **[Saldoar](https://saldo.com.ar)**; esta herramienta solo ayuda a elegir la mejor opción y deriva a Saldoar para concretar la operación.
+Proyecto personal sin fines de lucro, hecho de forma independiente para ayudar en la emergencia. La cotización y el envío del dinero los provee y ejecuta **[Saldoar](https://saldoar.com)**; esta herramienta solo ayuda a elegir la mejor opción y deriva a Saldoar para concretar la operación.
 
 ---
 

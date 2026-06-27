@@ -5,13 +5,13 @@
 //   /es-VE/a/pago_movil/palpal/0/100   (pago_movil sends 0, palpal receives 100)
 
 const LOCALE = 'es-VE';
-const BASE = 'https://saldo.com.ar';
+const BASE = 'https://saldoar.com';
 const DEST = 'pago_movil';
 
 export const COBRAR_FALLBACK_BASE = `${BASE}/${LOCALE}/cobrar`;
 
 /**
- * Builds a saldo.com.ar deep-link that pre-selects {systemId} → pago_movil
+ * Builds a saldoar.com deep-link that pre-selects {systemId} → pago_movil
  * and pre-fills the send amount. Amount is rounded to the nearest integer.
  */
 export function buildSaldoarLink(systemId: string, amount: number): string {
