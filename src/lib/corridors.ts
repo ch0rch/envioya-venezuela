@@ -4,6 +4,7 @@ export interface Corridor {
   currency: string;
   label: string;
   flag: string;
+  systemId: string;
 }
 
 export const CORRIDOR_LABELS: Record<string, { label: string; flag: string }> = {
@@ -23,11 +24,14 @@ export const CORRIDOR_LABELS: Record<string, { label: string; flag: string }> = 
 };
 
 export function availableCorridors(ds: Dataset): Corridor[] {
-  const seen = new Set<string>();
-  for (const r of ds.rates) seen.add(r.currency1);
-  return [...seen]
-    .map((currency) => ({
+  const byCurrency = new Map<string, string>(); // currency1 -> system1
+  for (const r of ds.rates) {
+    if (!byCurrency.has(r.currency1)) byCurrency.set(r.currency1, r.system1);
+  }
+  return [...byCurrency.entries()]
+    .map(([currency, systemId]) => ({
       currency,
+      systemId,
       label: CORRIDOR_LABELS[currency]?.label ?? currency,
       flag: CORRIDOR_LABELS[currency]?.flag ?? '💱',
     }))
