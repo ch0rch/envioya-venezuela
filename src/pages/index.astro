@@ -384,7 +384,7 @@ const hasQuery = Boolean(from && Number.isFinite(amount) && amount > 0);
                 <strong>Tu familiar solo necesita:</strong> teléfono + cédula.
                 No hace falta ir al banco.
               </aside>
-              <MethodSwitcher corridors={corridors} current={from} amount={amount} />
+              <MethodSwitcher corridors={corridors} current={from ?? ''} amount={amount} />
               {minsAgo !== null && <p class="freshness">Datos de hace {minsAgo} min · estimados, confirmá el monto final en Saldoar.</p>}
             </section>
           )}

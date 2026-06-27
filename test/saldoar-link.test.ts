@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { buildSaldoarLink, buildCobrarLink, COBRAR_FALLBACK_BASE } from '../src/lib/saldoar-link';
 
-// Step-1 empirical verification (2025-06-27):
+// Step-1 empirical verification (2026-06-27):
 // Curled https://saldo.com.ar/es-VE/a/zinli/pago_movil/100/0 — SSR HTML contains:
 //   href="/es-VE/a/palpal/pago_movil/100/0"   (palpal sends 100 → pago_movil receives)
 //   href="/es-VE/a/pago_movil/palpal/0/100"   (pago_movil sends 0 ← palpal receives 100)
