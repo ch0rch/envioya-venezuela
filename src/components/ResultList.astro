@@ -1,13 +1,13 @@
 ---
 import type { Route } from '../lib/routes';
 import RouteCard from './RouteCard.astro';
-interface Props { routes: Route[] }
-const { routes } = Astro.props;
+interface Props { routes: Route[]; amount: number }
+const { routes, amount } = Astro.props;
 ---
 {routes.length === 0 ? (
   <p class="empty">No encontramos una ruta desde esa moneda. Probá con USD o USDT.</p>
 ) : (
   <div class="results">
-    {routes.map((r, i) => <RouteCard route={r} best={i === 0} />)}
+    {routes.map((r, i) => <RouteCard route={r} best={i === 0} amount={amount} />)}
   </div>
 )}

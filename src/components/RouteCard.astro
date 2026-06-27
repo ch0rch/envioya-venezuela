@@ -1,15 +1,23 @@
 ---
 import type { Route } from '../lib/routes';
 import { formatVes } from '../lib/format';
-interface Props { route: Route; best: boolean }
-const { route, best } = Astro.props;
+import { buildSaldoarLink } from '../lib/saldoar-link';
+import SystemLogo from './SystemLogo.astro';
+interface Props { route: Route; best: boolean; amount: number }
+const { route, best, amount } = Astro.props;
+const saldoarUrl = buildSaldoarLink(route.systemId, amount);
 ---
 <article class:list={['card', { best }]}>
   {best && <span class="badge">Más bolívares</span>}
-  <h3>{route.systemName}</h3>
+  <header class="card-head">
+    <SystemLogo systemId={route.systemId} alt={route.systemName} />
+    <h3>{route.systemName}</h3>
+  </header>
   <p class="amount">{formatVes(route.arrivalVes)} <small>(estimado)</small></p>
   <p class="time">Llega en ~{route.timeAverageMin} min</p>
   {route.belowMin && (
     <p class="warn">Monto mínimo: {route.minSend} {route.currency}</p>
   )}
+  <a class="cta" href={saldoarUrl} target="_blank" rel="noopener">Iniciá el envío en Saldoar →</a>
+  <p class="cta-note">El teléfono de tu familiar se ingresa dentro de Saldoar.</p>
 </article>
