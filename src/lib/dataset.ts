@@ -22,6 +22,7 @@ export function buildDataset(raw: {
       id: s.id,
       name: a.name,
       currency: a.currency,
+      market: a.market ?? '',
       fixedFeeSend: a.fixed_fee_send ?? 0,
       percentFeeSend: a.percent_fee_send ?? 0,
       minSend: a.minimum_amount_send ?? 0,

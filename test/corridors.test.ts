@@ -42,6 +42,26 @@ describe('availableCorridors', () => {
       pagoMovilInfo: { timeAverage: 17, onTimePercent: 98 },
     };
     const c = availableCorridors(dsUnknown);
-    expect(c).toEqual([{ currency: 'XYZ', label: 'XYZ', flag: '💱', systemId: 'x' }]);
+    expect(c).toEqual([{ currency: 'XYZ', label: 'XYZ', flag: '💱', systemId: 'x', category: 'transfer' }]);
+  });
+
+  it('classifies corridors by category: crypto, wallet, transfer', () => {
+    const dsCategories = {
+      rates: [
+        { price: 748, system1: 'usdt', system2: 'pago_movil', currency1: 'USDT', currency2: 'VES' },
+        { price: 739, system1: 'zinli', system2: 'pago_movil', currency1: 'USD', currency2: 'VES' },
+        { price: 852, system1: 'banco_eur', system2: 'pago_movil', currency1: 'EUR', currency2: 'VES' },
+      ],
+      systems: {
+        usdt: { id: 'usdt', name: 'USDT', currency: 'USDT', fixedFeeSend: 0, percentFeeSend: 0, minSend: 0, maxSend: Infinity, market: 'crypto' },
+        zinli: { id: 'zinli', name: 'Zinli', currency: 'USD', fixedFeeSend: 0, percentFeeSend: 0, minSend: 0, maxSend: Infinity, market: 'fiat' },
+        banco_eur: { id: 'banco_eur', name: 'Banco EUR', currency: 'EUR', fixedFeeSend: 0, percentFeeSend: 0, minSend: 0, maxSend: Infinity, market: 'fiat' },
+      },
+      pagoMovilInfo: { timeAverage: 17, onTimePercent: 98 },
+    };
+    const c = availableCorridors(dsCategories as Parameters<typeof availableCorridors>[0]);
+    expect(c.find((x) => x.currency === 'USDT')?.category).toBe('crypto');
+    expect(c.find((x) => x.currency === 'USD')?.category).toBe('wallet');
+    expect(c.find((x) => x.currency === 'EUR')?.category).toBe('transfer');
   });
 });

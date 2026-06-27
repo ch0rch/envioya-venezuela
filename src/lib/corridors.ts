@@ -1,10 +1,23 @@
 import type { Dataset } from './saldoar.types';
 
+export type MethodCategory = 'transfer' | 'wallet' | 'crypto';
+
+const WALLET_SYSTEMS = new Set(['zinli', 'yape-plin']);
+
+export const CATEGORY_ORDER: MethodCategory[] = ['transfer', 'wallet', 'crypto'];
+
+export const CATEGORY_LABELS: Record<MethodCategory, string> = {
+  transfer: 'Transferencia',
+  wallet: 'Billetera',
+  crypto: 'Cripto',
+};
+
 export interface Corridor {
   currency: string;
   label: string;
   flag: string;
   systemId: string;
+  category: MethodCategory;
 }
 
 export const CORRIDOR_LABELS: Record<string, { label: string; flag: string }> = {
@@ -29,11 +42,17 @@ export function availableCorridors(ds: Dataset): Corridor[] {
     if (!byCurrency.has(r.currency1)) byCurrency.set(r.currency1, r.system1);
   }
   return [...byCurrency.entries()]
-    .map(([currency, systemId]) => ({
-      currency,
-      systemId,
-      label: CORRIDOR_LABELS[currency]?.label ?? currency,
-      flag: CORRIDOR_LABELS[currency]?.flag ?? '💱',
-    }))
+    .map(([currency, systemId]) => {
+      const market = ds.systems[systemId]?.market;
+      const category: MethodCategory =
+        market === 'crypto' ? 'crypto' : WALLET_SYSTEMS.has(systemId) ? 'wallet' : 'transfer';
+      return {
+        currency,
+        systemId,
+        label: CORRIDOR_LABELS[currency]?.label ?? currency,
+        flag: CORRIDOR_LABELS[currency]?.flag ?? '💱',
+        category,
+      };
+    })
     .sort((a, b) => a.label.localeCompare(b.label, 'es'));
 }

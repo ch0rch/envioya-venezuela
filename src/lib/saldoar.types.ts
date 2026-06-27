@@ -10,6 +10,7 @@ export interface SystemMeta {
   id: string;
   name: string;
   currency: string;
+  market: string;
   fixedFeeSend: number;
   percentFeeSend: number;
   minSend: number;
