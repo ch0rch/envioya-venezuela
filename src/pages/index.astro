@@ -450,7 +450,6 @@ const hasQuery = Boolean(from && Number.isFinite(amount) && amount > 0);
       <h1>Mandá plata a tu familia en Venezuela</h1>
       <p>Te decimos la forma de que les lleguen más bolívares, vía Pago Móvil.</p>
 
-      {/* Always-visible donations section — rendered outside all conditionals */}
       {apiDown ? (
         <p class="error">
           No pudimos cargar las cotizaciones ahora.
@@ -478,6 +477,7 @@ const hasQuery = Boolean(from && Number.isFinite(amount) && amount > 0);
         </>
       )}
 
+      {/* Always-visible donations section — rendered outside all conditionals */}
       <DonationsSection />
     </main>
   </body>
