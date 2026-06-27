@@ -368,10 +368,11 @@ Pure function that produces ranked routes for a given origin + amount.
 **Interfaces:**
 - Consumes: `Dataset` (Task 3).
 - Produces:
-  - `type SortKey = 'amount' | 'speed'`
   - `interface Route { systemId: string; systemName: string; arrivalVes: number; timeAverageMin: number; belowMin: boolean; minSend: number }`
-  - `function getRoutes(ds: Dataset, fromCurrency: string, amount: number, sort: SortKey): Route[]`
-  - Calculation: `arrivalVes = amount * rate.price` (gross, labelled "estimado" in UI). `timeAverageMin` comes from the SENDING system's own time when available, else the Pago Móvil `timeAverage`. `belowMin = amount < system.minSend`.
+  - `function getRoutes(ds: Dataset, fromCurrency: string, amount: number): Route[]`
+  - Calculation: `arrivalVes = amount * rate.price` (gross, labelled "estimado" in UI). Routes are always ranked by `arrivalVes` descending. `timeAverageMin` comes from the Pago Móvil `timeAverage` (shown as a single informational value — every route lands on Pago Móvil, so there is no per-route speed sort). `belowMin = amount < system.minSend`.
+
+> **Design note (decided during execution):** the original plan had a `sort: 'amount' | 'speed'` toggle. Because every route lands on Pago Móvil and we only fetch Pago Móvil's `time_average`, all routes share the same time — a speed sort would reorder nothing. To avoid a misleading control, the speed sort and the `SortKey` type are removed. Ranking is always by bolívares delivered; time is informational only.
 
 - [ ] **Step 1: Write the failing test** `test/routes.test.ts`
 
@@ -396,26 +397,36 @@ const ds: Dataset = {
 
 describe('getRoutes', () => {
   it('returns only routes matching the origin currency', () => {
-    const routes = getRoutes(ds, 'USD', 100, 'amount');
+    const routes = getRoutes(ds, 'USD', 100);
     expect(routes).toHaveLength(1);
     expect(routes[0].systemId).toBe('zinli');
   });
 
   it('computes gross arrival in VES', () => {
-    const routes = getRoutes(ds, 'USDT', 100, 'amount');
-    expect(routes[0].arrivalVes).toBeCloseTo(74800);
+    const routes = getRoutes(ds, 'USDT', 100);
+    expect(routes[0].arrivalVes).toBe(74800);
+  });
+
+  it('exposes the pago movil time as informational time', () => {
+    const routes = getRoutes(ds, 'USDT', 100);
+    expect(routes[0].timeAverageMin).toBe(17);
   });
 
   it('returns empty array for an origin with no route', () => {
-    expect(getRoutes(ds, 'JPY', 100, 'amount')).toEqual([]);
+    expect(getRoutes(ds, 'JPY', 100)).toEqual([]);
   });
 
   it('flags amounts below the system minimum', () => {
-    const routes = getRoutes(ds, 'USDT', 5, 'amount');
+    const routes = getRoutes(ds, 'USDT', 5);
     expect(routes[0].belowMin).toBe(true);
   });
 
-  it('sorts by arrival amount descending by default', () => {
+  it('does not flag amounts at or above the system minimum', () => {
+    const routes = getRoutes(ds, 'USDT', 100);
+    expect(routes[0].belowMin).toBe(false);
+  });
+
+  it('ranks by arrival amount descending', () => {
     const ds2: Dataset = {
       ...ds,
       rates: [
@@ -427,7 +438,7 @@ describe('getRoutes', () => {
         a: { id: 'a', name: 'A', currency: 'USD', fixedFeeSend: 0, percentFeeSend: 0, minSend: 1, maxSend: 1e9 },
       },
     };
-    const routes = getRoutes(ds2, 'USD', 100, 'amount');
+    const routes = getRoutes(ds2, 'USD', 100);
     expect(routes.map((r) => r.systemId)).toEqual(['zinli', 'a']);
   });
 });
@@ -443,8 +454,6 @@ Expected: FAIL (module not found).
 ```ts
 import type { Dataset } from './saldoar.types';
 
-export type SortKey = 'amount' | 'speed';
-
 export interface Route {
   systemId: string;
   systemName: string;
@@ -458,7 +467,6 @@ export function getRoutes(
   ds: Dataset,
   fromCurrency: string,
   amount: number,
-  sort: SortKey,
 ): Route[] {
   const routes: Route[] = ds.rates
     .filter((r) => r.currency1 === fromCurrency)
@@ -475,12 +483,8 @@ export function getRoutes(
       };
     });
 
-  const sorted = [...routes].sort((a, b) =>
-    sort === 'speed'
-      ? a.timeAverageMin - b.timeAverageMin
-      : b.arrivalVes - a.arrivalVes,
-  );
-  return sorted;
+  // Always rank by bolívares delivered, descending.
+  return [...routes].sort((a, b) => b.arrivalVes - a.arrivalVes);
 }
 ```
 
@@ -738,7 +742,7 @@ Wire the engine into Astro: GET form, SSR results, freshness, error states, fixe
 - Test: `test/format.test.ts`
 
 **Interfaces:**
-- Consumes: `getDataset` (Task 5), `getRoutes`/`Route`/`SortKey` (Task 4), `availableCorridors` (Task 6).
+- Consumes: `getDataset` (Task 5), `getRoutes`/`Route` (Task 4), `availableCorridors` (Task 6).
 - Produces:
   - `function formatVes(n: number): string` — Spanish thousands grouping, no decimals, suffix " Bs".
   - A page that reads `from`, `amount`, `sort` from `Astro.url.searchParams`, renders ranked routes when present.
@@ -838,7 +842,7 @@ const { corridors, selected } = Astro.props;
 ```astro
 ---
 import { getDataset } from '../lib/saldoar';
-import { getRoutes, type SortKey } from '../lib/routes';
+import { getRoutes } from '../lib/routes';
 import { availableCorridors } from '../lib/corridors';
 import OriginSelect from '../components/OriginSelect.astro';
 import ResultList from '../components/ResultList.astro';
@@ -846,7 +850,6 @@ import ResultList from '../components/ResultList.astro';
 const params = Astro.url.searchParams;
 const from = params.get('from');
 const amount = Number(params.get('amount') ?? '');
-const sort: SortKey = params.get('sort') === 'speed' ? 'speed' : 'amount';
 
 let corridors = [];
 let routes = [];
@@ -858,7 +861,7 @@ try {
   fetchedAt = cached.fetchedAt;
   corridors = availableCorridors(cached.dataset);
   if (from && Number.isFinite(amount) && amount > 0) {
-    routes = getRoutes(cached.dataset, from, amount, sort);
+    routes = getRoutes(cached.dataset, from, amount);
   }
 } catch {
   apiDown = true;
@@ -888,10 +891,6 @@ const hasQuery = Boolean(from && Number.isFinite(amount) && amount > 0);
           <form method="get">
             <OriginSelect corridors={corridors} selected={from} />
             <input type="number" name="amount" min="1" step="any" placeholder="Monto" value={hasQuery ? amount : ''} required />
-            <fieldset class="sort">
-              <label><input type="radio" name="sort" value="amount" checked={sort === 'amount'} /> Más bolívares</label>
-              <label><input type="radio" name="sort" value="speed" checked={sort === 'speed'} /> Más rápido</label>
-            </fieldset>
             <button type="submit">Ver mejor ruta</button>
           </form>
 
