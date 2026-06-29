@@ -277,6 +277,20 @@ const hasQuery = Boolean(from && Number.isFinite(amount) && amount > 0);
       margin-bottom: 0.2rem;
     }
 
+    /* --- Commission notice banner --- */
+    .notice {
+      background: rgba(76, 223, 176, 0.12);
+      border: 1.5px solid rgba(0, 110, 83, 0.22);
+      border-left: 4px solid var(--brand);
+      border-radius: var(--radius-card);
+      padding: 0.875rem 1.125rem;
+      font-size: 0.9rem;
+      line-height: 1.45;
+      color: var(--text-primary);
+    }
+
+    .notice strong { color: var(--brand); }
+
     /* --- Freshness line --- */
     .freshness {
       font-size: 0.78rem;
@@ -446,9 +460,13 @@ const hasQuery = Boolean(from && Number.isFinite(amount) && amount > 0);
   </head>
   <body>
     <main>
-      <img src="/logo-saldo-color.svg" alt="Saldoar" width="120" height="32" class="brand-logo" />
+      <img src="/logo-primary.svg" alt="Saldoar" width="443" height="89" class="brand-logo" />
       <h1>Mandá plata a tu familia en Venezuela</h1>
       <p>Te decimos la forma de que les lleguen más bolívares, vía Pago Móvil.</p>
+
+      <p class="notice">
+        <strong>Hasta el viernes, Saldoar bajó las comisiones.</strong> En plena emergencia, eso significa más bolívares para tu familia.
+      </p>
 
       {apiDown ? (
         <p class="error">
