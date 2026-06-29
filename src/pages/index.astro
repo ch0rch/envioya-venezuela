@@ -37,6 +37,26 @@ const hasQuery = Boolean(from && Number.isFinite(amount) && amount > 0);
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>EnvíoYA Venezuela — la mejor forma de mandar plata a tu familia</title>
+    <meta name="description" content="Te mostramos la forma de que les lleguen más bolívares a tu familia en Venezuela, vía Pago Móvil. Cobran con solo teléfono y cédula, sin ir al banco." />
+    <link rel="canonical" href={Astro.site} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="EnvíoYA Venezuela" />
+    <meta property="og:locale" content="es_VE" />
+    <meta property="og:url" content={Astro.site} />
+    <meta property="og:title" content="Mandá plata a tu familia en Venezuela" />
+    <meta property="og:description" content="Te mostramos la forma de que les lleguen más bolívares, vía Pago Móvil. Cobran con solo teléfono y cédula." />
+    <meta property="og:image" content={new URL('/og.png', Astro.site)} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="EnvíoYA Venezuela — Mandá más bolívares a tu familia vía Pago Móvil" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mandá plata a tu familia en Venezuela" />
+    <meta name="twitter:description" content="Te mostramos la forma de que les lleguen más bolívares, vía Pago Móvil. Cobran con solo teléfono y cédula." />
+    <meta name="twitter:image" content={new URL('/og.png', Astro.site)} />
   <style is:global>
     /* =========================================================
        EnvíoYA Venezuela — Global Styles
